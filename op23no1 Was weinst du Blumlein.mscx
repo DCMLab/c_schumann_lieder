@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -435,8 +435,8 @@
         </page-layout>
       <Spatium>1.4</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
-    <showUnprintable>0</showUnprintable>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="arranger"></metaTag>
@@ -597,16 +597,17 @@
           <text>6 Lieder, Op.23</text>
           </Text>
         <Text>
-          <style>Movement Title</style>
-          <text>1. Was weinst du, Blümlein?</text>
-          </Text>
-        <Text>
           <style>Composer</style>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
           <text>Hermann Rollett</text>
+          </Text>
+        <Text>
+          <pos x="0.425969" y="4.25969"/>
+          <style>Title</style>
+          <text>1. Was weinst du, Blümlein?</text>
           </Text>
         </VBox>
       <VBox>
@@ -863,13 +864,6 @@
           <style>Technique</style>
           <text>ritard.</text>
           </StaffText>
-        <Tempo>
-          <tempo>1.1</tempo>
-          <followText>1</followText>
-          <pos x="0" y="-4.5"/>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 66</text>
-          </Tempo>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>16th</durationType>
@@ -924,7 +918,7 @@
           </Chord>
         <Dynamic>
           <subtype>other-dynamics</subtype>
-          <pos x="-0.841719" y="-0.9"/>
+          <pos x="-0.259834" y="-0.609058"/>
           <text><font size="11"></font><sym>dynamicMezzo</sym><sym>dynamicForte</sym></text>
           </Dynamic>
         <StaffText>
@@ -932,13 +926,6 @@
           <style>Technique</style>
           <text>a tempo</text>
           </StaffText>
-        <Tempo>
-          <tempo>1.4</tempo>
-          <followText>1</followText>
-          <pos x="0" y="-4.5"/>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 84</text>
-          </Tempo>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -1395,12 +1382,6 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <pos x="0.658281" y="-1.2"/>
-          <visible>0</visible>
-          </Dynamic>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -1667,12 +1648,6 @@
           <style>Technique</style>
           <text><i>ritard.</i></text>
           </StaffText>
-        <Tempo>
-          <tempo>1.13333</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 68</text>
-          </Tempo>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -1735,12 +1710,6 @@
           <style>Technique</style>
           <text>a tempo</text>
           </StaffText>
-        <Tempo>
-          <tempo>1.4</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 84</text>
-          </Tempo>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -2488,7 +2457,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="95.4261" y="-2.5"/>
+            <pos x="95.5164" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -3790,6 +3759,10 @@
             <subtype>staccato</subtype>
             </Articulation>
           <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3799,22 +3772,21 @@
           <durationType>eighth</durationType>
           </Rest>
         <Chord>
-          <move>1</move>
           <durationType>eighth</durationType>
           <Articulation>
             <subtype>staccato</subtype>
             <anchor>3</anchor>
             </Articulation>
           <Stem>
-            <pos x="0.251563" y="1.5"/>
+            <pos x="0.251563" y="7.5"/>
             </Stem>
           <Note>
-            <pos x="-1" y="1.5"/>
+            <pos x="-1" y="7.5"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pos x="-1" y="0.5"/>
+            <pos x="-1" y="6.5"/>
             <pitch>56</pitch>
             <tpc>22</tpc>
             </Note>
@@ -3823,30 +3795,9 @@
           <offset x="0" y="10"/>
           <durationType>eighth</durationType>
           </Rest>
-        <tick>21360</tick>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>6.7</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <Note>
-            <track>5</track>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
         </Measure>
       <Measure number="24">
         <Chord>
-          <move>1</move>
           <durationType>eighth</durationType>
           <Note>
             <pitch>52</pitch>
@@ -4072,7 +4023,7 @@
           <durationType>eighth</durationType>
           <Articulation>
             <subtype>staccato</subtype>
-            <pos x="1.31656" y="-0.4"/>
+            <pos x="0.658279" y="4.90078"/>
             </Articulation>
           <Beam>3</Beam>
           <Slur type="start" id="25"/>
@@ -4089,9 +4040,13 @@
           <durationType>eighth</durationType>
           <Articulation>
             <subtype>staccato</subtype>
-            <pos x="1.31656" y="-0.5"/>
+            <pos x="0.658279" y="6.80078"/>
             </Articulation>
           <Beam>3</Beam>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -4109,10 +4064,14 @@
           <durationType>eighth</durationType>
           <Articulation>
             <subtype>staccato</subtype>
-            <pos x="1.31656" y="-0.5"/>
+            <pos x="0.658279" y="7.30078"/>
             </Articulation>
           <Beam>3</Beam>
           <Slur type="stop" id="25"/>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>22</tpc>
+            </Note>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -4139,51 +4098,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <tick>28320</tick>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>6.9</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <Note>
-            <track>5</track>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>7.2</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <Note>
-            <track>5</track>
-            <pitch>56</pitch>
-            <tpc>22</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <offset x="0" y="2"/>
-          <track>5</track>
-          <visible>0</visible>
-          <durationType>eighth</durationType>
-          </Rest>
         </Measure>
       <Measure number="31">
         <Beam id="4">
@@ -4271,6 +4185,10 @@
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
@@ -4285,6 +4203,10 @@
             <timeStretch>3</timeStretch>
             </Articulation>
           <Note>
+            <pitch>56</pitch>
+            <tpc>22</tpc>
+            </Note>
+          <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -4294,56 +4216,10 @@
           <style>Technique</style>
           <text>a tempo</text>
           </StaffText>
-        <Dynamic>
-          <subtype>mf</subtype>
-          <velocity>80</velocity>
-          <dynType>2</dynType>
-          <visible>0</visible>
-          </Dynamic>
         <Rest>
           <offset x="0" y="2"/>
           <durationType>eighth</durationType>
           </Rest>
-        <tick>30240</tick>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>7</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <Note>
-            <track>5</track>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>8</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <track>5</track>
-            <pitch>56</pitch>
-            <tpc>22</tpc>
-            </Note>
-          </Chord>
         </Measure>
       <Measure number="33">
         <Dynamic>
@@ -4932,18 +4808,17 @@
           <durationType>eighth</durationType>
           </Rest>
         <Chord>
-          <move>1</move>
           <durationType>eighth</durationType>
           <Stem>
-            <pos x="0.251563" y="1.5"/>
+            <pos x="0.251563" y="7.5"/>
             </Stem>
           <Note>
-            <pos x="-1" y="1.5"/>
+            <pos x="-1" y="7.5"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pos x="-1" y="0.5"/>
+            <pos x="-1" y="6.5"/>
             <pitch>56</pitch>
             <tpc>22</tpc>
             </Note>
@@ -4955,7 +4830,6 @@
         </Measure>
       <Measure number="48">
         <Chord>
-          <move>1</move>
           <durationType>eighth</durationType>
           <Note>
             <pitch>52</pitch>
@@ -4968,7 +4842,6 @@
           </Chord>
         <Rest>
           <offset x="0" y="1"/>
-          <move>1</move>
           <durationType>eighth</durationType>
           </Rest>
         <Rest>
@@ -5173,6 +5046,14 @@
             <subtype>staccato</subtype>
             </Articulation>
           <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
@@ -5186,6 +5067,10 @@
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>22</tpc>
+            </Note>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -5207,50 +5092,6 @@
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <tick>51360</tick>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>6.1</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <Note>
-            <track>5</track>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <track>5</track>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>7.5</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <Note>
-            <track>5</track>
-            <pitch>56</pitch>
-            <tpc>22</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -5310,6 +5151,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -5328,6 +5173,10 @@
             <timeStretch>2</timeStretch>
             </Articulation>
           <Note>
+            <pitch>56</pitch>
+            <tpc>22</tpc>
+            </Note>
+          <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -5337,51 +5186,6 @@
             </Note>
           </Chord>
         <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <tick>53280</tick>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>6.27936</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <Note>
-            <track>5</track>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <track>5</track>
-          <move>1</move>
-          <durationType>eighth</durationType>
-          <Stem>
-            <track>5</track>
-            <userLen>7.87807</userLen>
-            </Stem>
-          <Hook>
-            <name>flag8thUp</name>
-            <track>5</track>
-            <visible>0</visible>
-            </Hook>
-          <Note>
-            <track>5</track>
-            <pitch>56</pitch>
-            <tpc>22</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <offset x="0" y="1"/>
-          <track>5</track>
-          <visible>0</visible>
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
@@ -5436,7 +5240,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="-3.79734" y="0"/>
-            <pos x="95.4261" y="8"/>
+            <pos x="95.5164" y="8"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -5656,7 +5460,7 @@
         <Beam id="7">
           <Fragment>
             <y1>-0.75</y1>
-            <y2>-1.79045e-15</y2>
+            <y2>-1.40928e-15</y2>
             </Fragment>
           </Beam>
         <Chord>
@@ -5984,7 +5788,7 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0.021927" y="-2.56257"/>
+          <pos x="0.40985" y="-3.14445"/>
           <style>Technique</style>
           <text>a tempo</text>
           </StaffText>
@@ -7056,15 +6860,11 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Beam id="10">
-          <StemDirection>down</StemDirection>
-          </Beam>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Beam>10</Beam>
           <Note>
             <pitch>47</pitch>
             <tpc>19</tpc>
@@ -7076,7 +6876,6 @@
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Beam>10</Beam>
           <Note>
             <pitch>40</pitch>
             <tpc>18</tpc>

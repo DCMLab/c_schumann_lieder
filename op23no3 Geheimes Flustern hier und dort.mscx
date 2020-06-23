@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -437,9 +437,9 @@
         </page-layout>
       <Spatium>1.34</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
-    <showUnprintable>0</showUnprintable>
-    <showFrames>0</showFrames>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer">Clara Schumann</metaTag>
@@ -478,6 +478,10 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         </Page>
@@ -600,16 +604,17 @@
           <text>6 Lieder, Op.23</text>
           </Text>
         <Text>
-          <style>Movement Title</style>
-          <text>3. Geheimes Flüstern hier und dort</text>
-          </Text>
-        <Text>
           <style>Composer</style>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
           <text>Hermann Rollet</text>
+          </Text>
+        <Text>
+          <pos x="0.1795" y="4.12851"/>
+          <style>Title</style>
+          <text>3. Geheimes Flüstern hier und dort</text>
           </Text>
         </VBox>
       <VBox>
@@ -677,11 +682,6 @@
           </Rest>
         </Measure>
       <Measure number="8">
-        <Dynamic>
-          <subtype>mf</subtype>
-          <velocity>60</velocity>
-          <visible>0</visible>
-          </Dynamic>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -896,7 +896,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="1.82835" y="0"/>
-            <pos x="30.9426" y="-2"/>
+            <pos x="31.3426" y="-2"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -999,7 +999,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="2.10963" y="0"/>
-            <pos x="71.8186" y="-2"/>
+            <pos x="70.6186" y="-2"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -1108,7 +1108,7 @@
           <Segment>
             <subtype>1</subtype>
             <off2 x="0" y="0"/>
-            <pos x="118.94" y="-1"/>
+            <pos x="117.34" y="-1"/>
             </Segment>
           <Segment>
             <subtype>3</subtype>
@@ -1452,7 +1452,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="50.765" y="-3"/>
+            <pos x="50.7079" y="-3"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -1567,13 +1567,6 @@
             <tpc>8</tpc>
             </Note>
           </Chord>
-        <Tempo>
-          <tempo>0.983333</tempo>
-          <followText>1</followText>
-          <pos x="0" y="-3"/>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 59</text>
-          </Tempo>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1590,13 +1583,6 @@
           <velocity>49</velocity>
           <pos x="0.829141" y="-1"/>
           </Dynamic>
-        <Tempo>
-          <tempo>0.966667</tempo>
-          <followText>1</followText>
-          <pos x="0" y="-3"/>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 58</text>
-          </Tempo>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -1663,13 +1649,6 @@
           </Chord>
         </Measure>
       <Measure number="35">
-        <Tempo>
-          <tempo>0.95</tempo>
-          <followText>1</followText>
-          <pos x="0" y="-3"/>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 57</text>
-          </Tempo>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -1744,13 +1723,6 @@
           <velocity>45</velocity>
           <pos x="1.32914" y="-1.2"/>
           </Dynamic>
-        <Tempo>
-          <tempo>0.933333</tempo>
-          <followText>1</followText>
-          <pos x="0" y="-3"/>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 56</text>
-          </Tempo>
         <Slur id="12">
           <track>0</track>
           </Slur>
@@ -1813,15 +1785,6 @@
             <tpc>9</tpc>
             </Note>
           </Chord>
-        <tick>27720</tick>
-        <Tempo>
-          <tempo>0.95</tempo>
-          <followText>1</followText>
-          <pos x="0" y="-3"/>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 57</text>
-          </Tempo>
-        <tick>27840</tick>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1836,12 +1799,6 @@
           </Rest>
         </Measure>
       <Measure number="41">
-        <Tempo>
-          <tempo>0.966667</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 58</text>
-          </Tempo>
         <Volta id="13">
           <endHook>1</endHook>
           <beginText>
@@ -1855,36 +1812,18 @@
           </Rest>
         </Measure>
       <Measure number="42">
-        <Tempo>
-          <tempo>0.983333</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 59</text>
-          </Tempo>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
           </Rest>
         </Measure>
       <Measure number="43">
-        <Tempo>
-          <tempo>1</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 60</text>
-          </Tempo>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
           </Rest>
         </Measure>
       <Measure number="44">
-        <Tempo>
-          <tempo>1.01667</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 61</text>
-          </Tempo>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
@@ -1901,14 +1840,6 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <tick>32760</tick>
-        <Tempo>
-          <tempo>1.03333</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 62</text>
-          </Tempo>
-        <tick>32880</tick>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -1926,6 +1857,7 @@
           </Chord>
         </Measure>
       <Measure number="47">
+        <irregular/>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1941,7 +1873,7 @@
           <duration z="3" n="8"/>
           </Rest>
         </Measure>
-      <Measure number="48">
+      <Measure number="47">
         <stretch>0</stretch>
         <endSpanner id="14"/>
         <Rest>
@@ -1949,14 +1881,15 @@
           <duration z="3" n="8"/>
           </Rest>
         </Measure>
+      <Measure number="48">
+        <stretch>0</stretch>
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="3" n="8"/>
+          </Rest>
+        </Measure>
       <Measure number="49">
         <stretch>0</stretch>
-        <Tempo>
-          <tempo>0.933333</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 56</text>
-          </Tempo>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
@@ -1964,12 +1897,6 @@
         </Measure>
       <Measure number="50">
         <stretch>0</stretch>
-        <Tempo>
-          <tempo>0.916667</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 55</text>
-          </Tempo>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
@@ -1977,12 +1904,6 @@
         </Measure>
       <Measure number="51">
         <stretch>0</stretch>
-        <Tempo>
-          <tempo>0.9</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 54</text>
-          </Tempo>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
@@ -1997,12 +1918,6 @@
         </Measure>
       <Measure number="53">
         <stretch>0</stretch>
-        <Tempo>
-          <tempo>0.883333</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 53</text>
-          </Tempo>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
@@ -2010,25 +1925,12 @@
         </Measure>
       <Measure number="54">
         <stretch>0</stretch>
-        <Tempo>
-          <tempo>0.866667</tempo>
-          <followText>1</followText>
-          <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 52</text>
-          </Tempo>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
           </Rest>
         </Measure>
       <Measure number="55">
-        <stretch>0</stretch>
-        <Rest>
-          <durationType>measure</durationType>
-          <duration z="3" n="8"/>
-          </Rest>
-        </Measure>
-      <Measure number="56">
         <stretch>0</stretch>
         <LayoutBreak>
           <subtype>section</subtype>
@@ -2858,7 +2760,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -2872,7 +2773,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -2886,7 +2786,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -2959,7 +2858,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -2973,7 +2871,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -2983,7 +2880,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3005,7 +2901,6 @@
         <Chord>
           <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <move>1</move>
           <durationType>eighth</durationType>
           <Note>
             <pitch>63</pitch>
@@ -3047,7 +2942,6 @@
           <offset x="-2.61194" y="0"/>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3058,7 +2952,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3068,7 +2961,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3090,7 +2982,6 @@
         <Chord>
           <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <move>1</move>
           <durationType>eighth</durationType>
           <Note>
             <pitch>70</pitch>
@@ -3139,7 +3030,6 @@
           <offset x="-2.61194" y="0"/>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3150,7 +3040,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3160,7 +3049,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3231,7 +3119,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3241,7 +3128,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3251,7 +3137,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3314,7 +3199,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Beam>4</Beam>
           <Note>
@@ -3325,7 +3209,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Beam>4</Beam>
           <Note>
@@ -3336,7 +3219,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Beam>4</Beam>
           <Note>
@@ -3404,7 +3286,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3414,7 +3295,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3429,7 +3309,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="23"/>
           <Note>
@@ -3516,7 +3395,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3526,7 +3404,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3549,7 +3426,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="24"/>
           <Note>
@@ -3627,7 +3503,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3637,7 +3512,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3656,7 +3530,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="26"/>
           <Note>
@@ -3739,7 +3612,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Beam>5</Beam>
           <Note>
@@ -3750,7 +3622,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Beam>5</Beam>
           <Note>
@@ -3770,7 +3641,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Beam>5</Beam>
           <Slur type="stop" id="28"/>
@@ -3846,7 +3716,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3856,7 +3725,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3871,7 +3739,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="29"/>
           <Note>
@@ -3950,7 +3817,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3965,7 +3831,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -3980,7 +3845,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="30"/>
           <Note>
@@ -4089,113 +3953,67 @@
           </Chord>
         </Measure>
       <Measure number="24">
-        <Rest>
-          <visible>0</visible>
-          <durationType>measure</durationType>
-          <duration z="3" n="8"/>
-          </Rest>
-        <tick>16560</tick>
         <Slur id="32">
-          <track>5</track>
-          <SlurSegment no="0">
-            <o2 x="3.43762" y="-0.312538"/>
-            <o3 x="1.03761" y="-0.312538"/>
-            <track>5</track>
-            </SlurSegment>
+          <track>4</track>
           </Slur>
-        <Beam id="6">
-          <track>5</track>
-          <StemDirection>up</StemDirection>
-          </Beam>
         <Chord>
-          <track>5</track>
           <durationType>16th</durationType>
-          <Beam>6</Beam>
           <Slur type="start" id="32"/>
           <Note>
-            <track>5</track>
             <Accidental>
               <subtype>natural</subtype>
-              <track>5</track>
               </Accidental>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <track>5</track>
           <durationType>16th</durationType>
-          <Beam>6</Beam>
           <Note>
-            <track>5</track>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <track>5</track>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
-          <track>5</track>
           <durationType>16th</durationType>
-          <Beam>6</Beam>
           <Note>
-            <track>5</track>
             <Accidental>
               <subtype>natural</subtype>
-              <track>5</track>
               </Accidental>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Beam id="7">
-          <track>5</track>
-          <StemDirection>down</StemDirection>
-          </Beam>
         <Chord>
-          <track>5</track>
-          <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
-          <Beam>7</Beam>
           <Note>
-            <track>5</track>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
-          <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
-          <Beam>7</Beam>
           <Note>
-            <track>5</track>
             <Accidental>
               <role>1</role>
               <subtype>natural</subtype>
-              <track>5</track>
               </Accidental>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <track>5</track>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
-          <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
-          <Beam>7</Beam>
           <Slur type="stop" id="32"/>
           <Note>
-            <track>5</track>
             <pitch>53</pitch>
             <tpc>13</tpc>
             </Note>
@@ -4228,7 +4046,7 @@
             </Note>
           </Chord>
         <tick>17280</tick>
-        <Beam id="8">
+        <Beam id="6">
           <track>5</track>
           <Fragment>
             <y1>7.5</y1>
@@ -4239,7 +4057,7 @@
           <offset x="-2.42537" y="0"/>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>8</Beam>
+          <Beam>6</Beam>
           <Note>
             <track>5</track>
             <pitch>66</pitch>
@@ -4250,7 +4068,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>8</Beam>
+          <Beam>6</Beam>
           <Note>
             <track>5</track>
             <pitch>63</pitch>
@@ -4260,7 +4078,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>8</Beam>
+          <Beam>6</Beam>
           <Note>
             <track>5</track>
             <pitch>58</pitch>
@@ -4270,7 +4088,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4280,7 +4097,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4295,7 +4111,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="33"/>
           <Note>
@@ -4326,7 +4141,7 @@
             </Note>
           </Chord>
         <tick>18000</tick>
-        <Beam id="9">
+        <Beam id="7">
           <track>5</track>
           <Fragment>
             <y1>6.75</y1>
@@ -4337,7 +4152,7 @@
           <offset x="-2.42537" y="0"/>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>9</Beam>
+          <Beam>7</Beam>
           <Note>
             <track>5</track>
             <pitch>70</pitch>
@@ -4348,7 +4163,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>9</Beam>
+          <Beam>7</Beam>
           <Note>
             <track>5</track>
             <pitch>63</pitch>
@@ -4363,7 +4178,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>9</Beam>
+          <Beam>7</Beam>
           <Note>
             <track>5</track>
             <pitch>58</pitch>
@@ -4373,7 +4188,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4383,7 +4197,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4398,7 +4211,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="34"/>
           <Note>
@@ -4429,7 +4241,7 @@
             </Note>
           </Chord>
         <tick>18720</tick>
-        <Beam id="10">
+        <Beam id="8">
           <track>5</track>
           <StemDirection>down</StemDirection>
           </Beam>
@@ -4437,7 +4249,7 @@
           <offset x="-2.42537" y="0"/>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>10</Beam>
+          <Beam>8</Beam>
           <Note>
             <track>5</track>
             <pitch>70</pitch>
@@ -4448,7 +4260,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>10</Beam>
+          <Beam>8</Beam>
           <Note>
             <track>5</track>
             <pitch>63</pitch>
@@ -4463,7 +4275,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>10</Beam>
+          <Beam>8</Beam>
           <Note>
             <track>5</track>
             <pitch>58</pitch>
@@ -4473,7 +4285,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4483,7 +4294,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4498,7 +4308,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="35"/>
           <Note>
@@ -4529,7 +4338,7 @@
             </SlurSegment>
           <up>1</up>
           </Slur>
-        <Beam id="11">
+        <Beam id="9">
           <track>5</track>
           <StemDirection>down</StemDirection>
           </Beam>
@@ -4537,7 +4346,7 @@
           <offset x="-2.42537" y="0"/>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>11</Beam>
+          <Beam>9</Beam>
           <Slur type="start" id="36"/>
           <Note>
             <track>5</track>
@@ -4549,7 +4358,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>11</Beam>
+          <Beam>9</Beam>
           <Note>
             <track>5</track>
             <pitch>63</pitch>
@@ -4564,23 +4373,22 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>11</Beam>
+          <Beam>9</Beam>
           <Note>
             <track>5</track>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <Beam id="12">
+        <Beam id="10">
           <track>5</track>
           <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
-          <Beam>12</Beam>
+          <Beam>10</Beam>
           <Note>
             <track>5</track>
             <pitch>63</pitch>
@@ -4589,9 +4397,8 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
-          <Beam>12</Beam>
+          <Beam>10</Beam>
           <Note>
             <track>5</track>
             <pitch>54</pitch>
@@ -4605,9 +4412,8 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
-          <Beam>12</Beam>
+          <Beam>10</Beam>
           <Slur type="stop" id="36"/>
           <Note>
             <track>5</track>
@@ -4647,7 +4453,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0.6" y="0"/>
-            <pos x="57.4585" y="7"/>
+            <pos x="57.3871" y="7"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -4694,7 +4500,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4704,7 +4509,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4719,7 +4523,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="37"/>
           <Note>
@@ -4787,17 +4590,15 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
             </Note>
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4812,7 +4613,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="39"/>
           <Note>
@@ -4880,7 +4680,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4890,7 +4689,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -4900,7 +4698,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="40"/>
           <Note>
@@ -4918,7 +4715,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="3.7" y="0"/>
-            <pos x="104.384" y="8.9"/>
+            <pos x="104.241" y="8.9"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -4954,7 +4751,7 @@
             </Note>
           </Chord>
         <tick>22320</tick>
-        <Beam id="13">
+        <Beam id="11">
           <track>5</track>
           <Fragment>
             <y1>6.5</y1>
@@ -4964,7 +4761,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>13</Beam>
+          <Beam>11</Beam>
           <Note>
             <track>5</track>
             <pitch>72</pitch>
@@ -4975,7 +4772,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>13</Beam>
+          <Beam>11</Beam>
           <Note>
             <track>5</track>
             <pitch>63</pitch>
@@ -4990,7 +4787,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>13</Beam>
+          <Beam>11</Beam>
           <Note>
             <track>5</track>
             <pitch>60</pitch>
@@ -5000,7 +4797,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5010,7 +4806,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5020,7 +4815,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="42"/>
           <Note>
@@ -5092,7 +4886,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5102,7 +4895,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5112,7 +4904,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5183,7 +4974,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5193,7 +4983,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5203,7 +4992,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5293,11 +5081,6 @@
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
-            <Accidental>
-              <role>1</role>
-              <subtype>flat</subtype>
-              <track>5</track>
-              </Accidental>
             <pitch>66</pitch>
             <tpc>8</tpc>
             </Note>
@@ -5366,7 +5149,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5376,7 +5158,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5390,7 +5171,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5457,7 +5237,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5467,7 +5246,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5477,7 +5255,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Slur type="stop" id="45"/>
           <Note>
@@ -5533,7 +5310,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5547,7 +5323,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5557,7 +5332,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5624,7 +5398,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5634,7 +5407,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5644,7 +5416,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5675,14 +5446,14 @@
             </Note>
           </Chord>
         <tick>28080</tick>
-        <Beam id="14">
+        <Beam id="12">
           <track>5</track>
           <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>14</Beam>
+          <Beam>12</Beam>
           <Note>
             <track>5</track>
             <pitch>69</pitch>
@@ -5693,7 +5464,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>14</Beam>
+          <Beam>12</Beam>
           <Note>
             <track>5</track>
             <Accidental>
@@ -5707,7 +5478,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>14</Beam>
+          <Beam>12</Beam>
           <Note>
             <track>5</track>
             <pitch>61</pitch>
@@ -5717,7 +5488,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5732,7 +5502,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5742,7 +5511,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5780,7 +5548,7 @@
             </Note>
           </Chord>
         <tick>28800</tick>
-        <Beam id="15">
+        <Beam id="13">
           <track>5</track>
           <StemDirection>down</StemDirection>
           </Beam>
@@ -5788,7 +5556,7 @@
           <offset x="-2.42537" y="0"/>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>15</Beam>
+          <Beam>13</Beam>
           <Note>
             <track>5</track>
             <pitch>75</pitch>
@@ -5799,7 +5567,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>15</Beam>
+          <Beam>13</Beam>
           <Note>
             <track>5</track>
             <pitch>68</pitch>
@@ -5809,7 +5577,7 @@
         <Chord>
           <track>5</track>
           <durationType>16th</durationType>
-          <Beam>15</Beam>
+          <Beam>13</Beam>
           <Note>
             <track>5</track>
             <pitch>63</pitch>
@@ -5819,7 +5587,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5829,7 +5596,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5839,7 +5605,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5909,7 +5674,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5924,7 +5688,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -5934,7 +5697,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6010,7 +5772,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6020,7 +5781,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6030,7 +5790,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6121,7 +5880,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6131,7 +5889,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6155,7 +5912,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6224,7 +5980,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6238,7 +5993,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6257,7 +6011,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6320,7 +6073,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6335,7 +6087,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6345,7 +6096,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6411,7 +6161,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6421,7 +6170,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6431,7 +6179,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6440,7 +6187,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="48">
+      <Measure number="47">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -6507,7 +6254,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6522,7 +6268,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6532,7 +6277,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6541,7 +6285,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="49">
+      <Measure number="48">
         <Slur id="52">
           <track>4</track>
           </Slur>
@@ -6609,7 +6353,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6624,7 +6367,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6634,7 +6376,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6643,7 +6384,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="50">
+      <Measure number="49">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -6698,7 +6439,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6712,7 +6452,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6722,7 +6461,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6731,7 +6469,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="51">
+      <Measure number="50">
         <Slur id="54">
           <track>4</track>
           </Slur>
@@ -6794,7 +6532,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6804,7 +6541,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6818,7 +6554,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6827,7 +6562,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="52">
+      <Measure number="51">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -6886,7 +6621,6 @@
         <Chord>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6896,7 +6630,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6906,7 +6639,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6915,7 +6647,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="53">
+      <Measure number="52">
         <Slur id="56">
           <track>4</track>
           </Slur>
@@ -6932,7 +6664,6 @@
         <Chord>
           <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <move>1</move>
           <durationType>eighth</durationType>
           <Note>
             <pitch>61</pitch>
@@ -6954,7 +6685,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6964,7 +6694,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6976,7 +6705,6 @@
           <offset x="-2.42537" y="0"/>
           <track>5</track>
           <BeamMode>begin</BeamMode>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6986,7 +6714,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -6996,7 +6723,6 @@
           </Chord>
         <Chord>
           <track>5</track>
-          <move>1</move>
           <durationType>16th</durationType>
           <Note>
             <track>5</track>
@@ -7005,7 +6731,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="54">
+      <Measure number="53">
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
@@ -7087,7 +6813,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="55">
+      <Measure number="54">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -7115,7 +6841,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="56">
+      <Measure number="55">
         <Chord>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
@@ -7145,28 +6871,13 @@
           <sigD>8</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
-        <Pedal id="58">
-          <lineVisible>0</lineVisible>
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <color r="255" g="255" b="255" a="255"/>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="4.68808" y="0"/>
-            <pos x="21.875" y="8"/>
-            <color r="255" g="255" b="255" a="255"/>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Symbol>
+              <name>keyboardPedalPed</name>
+              <pos x="-0.495837" y="7.68547"/>
+              </Symbol>
             <pitch>49</pitch>
             <tpc>9</tpc>
             </Note>
@@ -7197,25 +6908,6 @@
           </Chord>
         </Measure>
       <Measure number="2">
-        <endSpanner id="58"/>
-        <Pedal id="59">
-          <lineVisible>0</lineVisible>
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="1.71896" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -7251,24 +6943,6 @@
           </Chord>
         </Measure>
       <Measure number="3">
-        <endSpanner id="59"/>
-        <Pedal id="60">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="2.96912" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -7303,24 +6977,6 @@
           </Chord>
         </Measure>
       <Measure number="4">
-        <endSpanner id="60"/>
-        <Pedal id="61">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="1.71896" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -7361,24 +7017,6 @@
           </Chord>
         </Measure>
       <Measure number="5">
-        <endSpanner id="61"/>
-        <Pedal id="62">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -7413,24 +7051,6 @@
           </Chord>
         </Measure>
       <Measure number="6">
-        <endSpanner id="62"/>
-        <Pedal id="63">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -7474,24 +7094,6 @@
           </Chord>
         </Measure>
       <Measure number="7">
-        <endSpanner id="63"/>
-        <Pedal id="64">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -7536,24 +7138,6 @@
           </Chord>
         </Measure>
       <Measure number="8">
-        <endSpanner id="64"/>
-        <Pedal id="65">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -7580,7 +7164,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <endSpanner id="65"/>
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -7597,23 +7180,6 @@
           </Chord>
         </Measure>
       <Measure number="9">
-        <Pedal id="66">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -7624,104 +7190,32 @@
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Pedal id="67">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <visible>0</visible>
           <durationType>16th</durationType>
           </Rest>
-        <endSpanner id="66"/>
         <Rest>
           <visible>0</visible>
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="10">
-        <endSpanner id="67"/>
-        <Pedal id="68">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Pedal id="69">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <visible>0</visible>
           <durationType>16th</durationType>
           </Rest>
-        <endSpanner id="68"/>
         <Rest>
           <visible>0</visible>
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="11">
-        <endSpanner id="69"/>
-        <Pedal id="70">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -7732,52 +7226,16 @@
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Pedal id="71">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <visible>0</visible>
           <durationType>16th</durationType>
           </Rest>
-        <endSpanner id="70"/>
         <Rest>
           <visible>0</visible>
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="12">
-        <endSpanner id="71"/>
-        <Pedal id="72">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -7788,30 +7246,12 @@
           <visible>0</visible>
           <durationType>16th</durationType>
           </Rest>
-        <endSpanner id="72"/>
         <Rest>
           <visible>0</visible>
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="13">
-        <Pedal id="73">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -7832,24 +7272,6 @@
           </Rest>
         </Measure>
       <Measure number="14">
-        <endSpanner id="73"/>
-        <Pedal id="74">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -7874,24 +7296,6 @@
           </Clef>
         </Measure>
       <Measure number="15">
-        <endSpanner id="74"/>
-        <Pedal id="75">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="1.61896" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -7906,30 +7310,12 @@
           <visible>0</visible>
           <durationType>16th</durationType>
           </Rest>
-        <endSpanner id="75"/>
         <Rest>
           <visible>0</visible>
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="16">
-        <Pedal id="76">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="2" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -7940,30 +7326,12 @@
           <visible>0</visible>
           <durationType>16th</durationType>
           </Rest>
-        <endSpanner id="76"/>
         <Rest>
           <visible>0</visible>
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="17">
-        <Pedal id="77">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -7984,24 +7352,6 @@
           </Rest>
         </Measure>
       <Measure number="18">
-        <endSpanner id="77"/>
-        <Pedal id="78">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -8023,24 +7373,6 @@
           </Rest>
         </Measure>
       <Measure number="19">
-        <endSpanner id="78"/>
-        <Pedal id="79">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8061,25 +7393,6 @@
           </Rest>
         </Measure>
       <Measure number="20">
-        <endSpanner id="79"/>
-        <Pedal id="80">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-4.53181" y="0"/>
-            <pos x="13.9712" y="10"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8103,25 +7416,6 @@
           </Rest>
         </Measure>
       <Measure number="21">
-        <endSpanner id="80"/>
-        <Pedal id="81">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-4.53181" y="0"/>
-            <pos x="32.7755" y="8.62508"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8142,24 +7436,6 @@
           </Rest>
         </Measure>
       <Measure number="22">
-        <endSpanner id="81"/>
-        <Pedal id="82">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-5.31315" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -8176,24 +7452,6 @@
           </Rest>
         </Measure>
       <Measure number="23">
-        <endSpanner id="82"/>
-        <Pedal id="83">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="2.42217" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8230,24 +7488,6 @@
           </Rest>
         </Measure>
       <Measure number="25">
-        <endSpanner id="83"/>
-        <Pedal id="84">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-2.18777" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8268,24 +7508,6 @@
           </Rest>
         </Measure>
       <Measure number="26">
-        <endSpanner id="84"/>
-        <Pedal id="85">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-1.71896" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8307,24 +7529,6 @@
         </Measure>
       <Measure number="27">
         <vspacerDown>10.4</vspacerDown>
-        <endSpanner id="85"/>
-        <Pedal id="86">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -8346,24 +7550,6 @@
           </Rest>
         </Measure>
       <Measure number="28">
-        <endSpanner id="86"/>
-        <Pedal id="87">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -8380,24 +7566,6 @@
           </Rest>
         </Measure>
       <Measure number="29">
-        <endSpanner id="87"/>
-        <Pedal id="88">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8418,24 +7586,6 @@
           </Rest>
         </Measure>
       <Measure number="30">
-        <endSpanner id="88"/>
-        <Pedal id="89">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8459,24 +7609,6 @@
           </Rest>
         </Measure>
       <Measure number="31">
-        <endSpanner id="89"/>
-        <Pedal id="90">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8497,24 +7629,6 @@
           </Rest>
         </Measure>
       <Measure number="32">
-        <endSpanner id="90"/>
-        <Pedal id="91">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -8531,24 +7645,6 @@
           </Rest>
         </Measure>
       <Measure number="33">
-        <endSpanner id="91"/>
-        <Pedal id="92">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8573,24 +7669,6 @@
         </Measure>
       <Measure number="34">
         <vspacerDown>17.1</vspacerDown>
-        <endSpanner id="92"/>
-        <Pedal id="93">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-3.12538" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8611,24 +7689,6 @@
           </Rest>
         </Measure>
       <Measure number="35">
-        <endSpanner id="93"/>
-        <Pedal id="94">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-4.53181" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8649,24 +7709,6 @@
           </Rest>
         </Measure>
       <Measure number="36">
-        <endSpanner id="94"/>
-        <Pedal id="95">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -8683,24 +7725,6 @@
           </Rest>
         </Measure>
       <Measure number="37">
-        <endSpanner id="95"/>
-        <Pedal id="96">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8721,24 +7745,6 @@
           </Rest>
         </Measure>
       <Measure number="38">
-        <endSpanner id="96"/>
-        <Pedal id="97">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -8755,24 +7761,6 @@
           </Rest>
         </Measure>
       <Measure number="39">
-        <endSpanner id="97"/>
-        <Pedal id="98">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8793,24 +7781,6 @@
           </Rest>
         </Measure>
       <Measure number="40">
-        <endSpanner id="98"/>
-        <Pedal id="99">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -8828,24 +7798,6 @@
         </Measure>
       <Measure number="41">
         <vspacerDown>17.3</vspacerDown>
-        <endSpanner id="99"/>
-        <Pedal id="100">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -8867,24 +7819,6 @@
           </Rest>
         </Measure>
       <Measure number="42">
-        <endSpanner id="100"/>
-        <Pedal id="101">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -8909,24 +7843,6 @@
           </Rest>
         </Measure>
       <Measure number="43">
-        <endSpanner id="101"/>
-        <Pedal id="102">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -8948,24 +7864,6 @@
           </Rest>
         </Measure>
       <Measure number="44">
-        <endSpanner id="102"/>
-        <Pedal id="103">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8986,24 +7884,6 @@
           </Rest>
         </Measure>
       <Measure number="45">
-        <endSpanner id="103"/>
-        <Pedal id="104">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -9025,24 +7905,6 @@
           </Rest>
         </Measure>
       <Measure number="46">
-        <endSpanner id="104"/>
-        <Pedal id="105">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -9068,24 +7930,6 @@
           </Rest>
         </Measure>
       <Measure number="47">
-        <endSpanner id="105"/>
-        <Pedal id="106">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
@@ -9106,28 +7950,30 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="48">
-        <endSpanner id="106"/>
-        <Pedal id="107">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
+      <Measure number="47">
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Rest>
+          <durationType>16th</durationType>
+          </Rest>
+        <Rest>
+          <visible>0</visible>
+          <durationType>16th</durationType>
+          </Rest>
+        <Rest>
+          <visible>0</visible>
+          <durationType>eighth</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="48">
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>37</pitch>
+            <tpc>9</tpc>
+            </Note>
+          </Chord>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
@@ -9141,31 +7987,9 @@
           </Rest>
         </Measure>
       <Measure number="49">
-        <endSpanner id="107"/>
-        <Pedal id="108">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0.15688" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
-        <Chord>
+        <Rest>
           <durationType>eighth</durationType>
-          <Note>
-            <pitch>37</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
+          </Rest>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
@@ -9179,58 +8003,6 @@
           </Rest>
         </Measure>
       <Measure number="50">
-        <endSpanner id="108"/>
-        <Pedal id="109">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Rest>
-          <durationType>16th</durationType>
-          </Rest>
-        <Rest>
-          <visible>0</visible>
-          <durationType>16th</durationType>
-          </Rest>
-        <Rest>
-          <visible>0</visible>
-          <durationType>eighth</durationType>
-          </Rest>
-        </Measure>
-      <Measure number="51">
-        <endSpanner id="109"/>
-        <Pedal id="110">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -9250,25 +8022,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="52">
-        <endSpanner id="110"/>
-        <Pedal id="111">
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <visible>0</visible>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <visible>0</visible>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
+      <Measure number="51">
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -9284,29 +8038,15 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="53">
-        <endSpanner id="111"/>
-        <Pedal id="112">
-          <lineVisible>0</lineVisible>
-          <beginHookHeight>-1.2</beginHookHeight>
-          <endHook>1</endHook>
-          <endHookHeight>-1.2</endHookHeight>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="100.222" y="11.5"/>
-            </Segment>
-          <beginText>
-            <text><sym>keyboardPedalPed</sym></text>
-            </beginText>
-          <continueText>
-            <text>(<sym>keyboardPedalPed</sym>)</text>
-            </continueText>
-          </Pedal>
+      <Measure number="52">
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
           <Note>
+            <Symbol>
+              <name>keyboardPedalPed</name>
+              <pos x="-0.607293" y="6.90528"/>
+              </Symbol>
             <pitch>37</pitch>
             <tpc>9</tpc>
             </Note>
@@ -9324,20 +8064,26 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
+      <Measure number="53">
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Rest>
+          <durationType>16th</durationType>
+          </Rest>
+        <Rest>
+          <visible>0</visible>
+          <durationType>16th</durationType>
+          </Rest>
+        <Rest>
+          <visible>0</visible>
+          <durationType>eighth</durationType>
+          </Rest>
+        </Measure>
       <Measure number="54">
         <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Rest>
-          <durationType>16th</durationType>
-          </Rest>
-        <Rest>
-          <visible>0</visible>
-          <durationType>16th</durationType>
-          </Rest>
-        <Rest>
-          <visible>0</visible>
-          <durationType>eighth</durationType>
+          <durationType>measure</durationType>
+          <duration z="3" n="8"/>
           </Rest>
         </Measure>
       <Measure number="55">
@@ -9345,13 +8091,6 @@
           <durationType>measure</durationType>
           <duration z="3" n="8"/>
           </Rest>
-        </Measure>
-      <Measure number="56">
-        <Rest>
-          <durationType>measure</durationType>
-          <duration z="3" n="8"/>
-          </Rest>
-        <endSpanner id="112"/>
         </Measure>
       </Staff>
     </Score>
