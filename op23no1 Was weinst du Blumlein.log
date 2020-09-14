@@ -1,0 +1,12 @@
+INFO     op23no1 Was weinst du Blumlein.ms3 -- Attempting to parse op23no1 Was weinst du Blumlein.mscx
+WARNING  op23no1 Was weinst du Blumlein.ms3 -- These values in mc_info[2] are not included in mc_info[1]: mc
+9    other
+Name: barline, dtype: object
+WARNING  op23no1 Was weinst du Blumlein.ms3 -- These values in mc_info[3] are not included in mc_info[1]: mc
+9    other
+Name: barline, dtype: object
+WARNING  op23no1 Was weinst du Blumlein.ms3 -- info and mc_info[1] were not identical before aggregation.
+This means that lower staves contain information that's missing in
+the first staff (as shown in previous warning).
+INFO     op23no1 Was weinst du Blumlein.ms3 -- Done parsing op23no1 Was weinst du Blumlein.mscx
+
