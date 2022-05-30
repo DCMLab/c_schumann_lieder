@@ -225,10 +225,15 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="composed_end">1853</metaTag>
+    <metaTag name="composed_start">1853</metaTag>
     <metaTag name="composer">Clara Schumann</metaTag>
     <metaTag name="copyright">Creative Commons copyright waiver (CC0 1.0 Universal)</metaTag>
     <metaTag name="creationDate">2018-06-14</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
     <metaTag name="lyricist">Hermann Rollett</metaTag>
     <metaTag name="movementNumber">2</metaTag>
     <metaTag name="movementTitle">An einem lichten Morgen</metaTag>
@@ -236,6 +241,7 @@
     <metaTag name="originalFormat">musicxml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/openscore-lieder-corpus/scores/5133773</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber">23</metaTag>
