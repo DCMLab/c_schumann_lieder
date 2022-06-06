@@ -6897,7 +6897,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6(112)</name>
+            <name>iio6(112){</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -7030,10 +7030,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -7225,7 +7221,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
