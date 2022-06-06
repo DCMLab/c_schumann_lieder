@@ -5686,7 +5686,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6(112)</name>
+            <name>iio6(112){</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5774,13 +5774,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
