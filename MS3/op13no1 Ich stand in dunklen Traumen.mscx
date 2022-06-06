@@ -7791,7 +7791,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7819,7 +7819,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(7)</name>
+            <name>I(7){</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
