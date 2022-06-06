@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -220,7 +220,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.564</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -242,6 +241,7 @@
     <metaTag name="originalFormat">musicxml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/openscore-lieder-corpus/scores/5133602</metaTag>
     <metaTag name="translator"></metaTag>
@@ -290,6 +290,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="68"/>
           <synti>Fluid</synti>
           </Channel>
@@ -350,6 +351,10 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
@@ -1009,7 +1014,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>Lä</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -1026,7 +1031,7 @@
             <durationType>16th</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>cheln</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1062,7 +1067,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>wun</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -1076,7 +1081,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>der</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1105,7 +1110,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>und</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1122,7 +1127,7 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>wie</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1134,7 +1139,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>von</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1167,7 +1172,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>Weh</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1184,7 +1189,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>muths</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1209,7 +1214,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>thrä</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1242,7 +1247,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>nen</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1258,7 +1263,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>er</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1283,7 +1288,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>glänz</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -1297,7 +1302,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>te</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -1310,7 +1315,7 @@
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>ihr</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1324,7 +1329,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>Au</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -1341,7 +1346,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>gen</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -6884,14 +6889,14 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(96)/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(96)/V</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -7007,14 +7012,14 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
