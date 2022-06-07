@@ -4235,7 +4235,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Db.I</name>
+            <name>Db.I{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4678,7 +4678,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I}{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5026,7 +5026,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V\\</name>
+            <name>V[V|HC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
