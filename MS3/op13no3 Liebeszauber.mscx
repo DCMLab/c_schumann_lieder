@@ -13718,7 +13718,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Eb.I6</name>
+            <name>Eb.I6{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -15128,7 +15128,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]\\</name>
+            <name>V]|HC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -15315,7 +15315,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
