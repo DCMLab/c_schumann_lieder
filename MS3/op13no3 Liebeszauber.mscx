@@ -15128,7 +15128,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]|HC}</name>
+            <name>V]|HC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -15315,7 +15315,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I{</name>
+            <name>I[I</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -18523,7 +18523,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]\\</name>
+            <name>V]|HC}{</name>
             </Harmony>
           <Tuplet>
             <visible>0</visible>
