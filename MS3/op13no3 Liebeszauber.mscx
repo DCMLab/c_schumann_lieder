@@ -23388,7 +23388,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I\\</name>
+            <name>I[I|PAC}{</name>
             </Harmony>
           <Tuplet>
             <visible>0</visible>
@@ -23714,7 +23714,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
