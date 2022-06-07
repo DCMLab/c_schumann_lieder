@@ -9517,7 +9517,7 @@
             <StemDirection>up</StemDirection>
             <Fragment>
               <y1>-0.75</y1>
-              <y2>1.83771e-14</y2>
+              <y2>2.35227e-14</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -19998,7 +19998,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>ii|DC</name>
             </Harmony>
           <Tuplet>
             <visible>0</visible>
