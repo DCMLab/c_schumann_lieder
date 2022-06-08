@@ -8377,7 +8377,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataBelow</subtype>
@@ -8404,6 +8404,14 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <offset x="1.60136" y="3.00727"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -9227,7 +9235,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7|HC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -9318,7 +9326,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
