@@ -8,7 +8,7 @@ Labels have old phrase annotations and are missing cadence labels.
 |op13no1 Ich stand in dunklen Traumen   |      37|   103|2.3.0   |Adrian Nagel|AB       |
 |op13no2 Sie liebten sich beide         |      34|   108|2.3.0   |Adrian Nagel|AB       |
 |op13no3 Liebeszauber                   |      54|   155|2.3.0   |Adrian Nagel|         |
-|op13no4 Der Mond kommt still gegangen  |      33|   120|2.3.0   |Adrian Nagel|         |
+|op13no4 Der Mond kommt still gegangen  |      33|   120|2.3.0   |Adrian Nagel|AB       |
 |op13no5 Ich hab in deinem Auge         |      33|   109|2.3.0   |Adrian Nagel|         |
 |op13no6 Die stille Lotosblume          |      47|   117|2.3.0   |Adrian Nagel|         |
 |op23no1 Was weinst du Blumlein         |      68|   141|2.3.0   |Adrian Nagel|         |
