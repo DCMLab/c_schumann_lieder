@@ -1,3 +1,4 @@
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op13no1 Ich stand in dunklen Traumen.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op13no2 Sie liebten sich beide.html" height="600" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op13no3 Liebeszauber.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op13no4 Der Mond kommt still gegangen.html" height="600" width="100%"></iframe>
