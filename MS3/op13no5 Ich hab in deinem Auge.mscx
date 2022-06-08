@@ -1862,9 +1862,14 @@
               <dynType>2</dynType>
               <placement>above</placement>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-2.5"/>
                 <off2 x="-5" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -6356,7 +6361,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6376,7 +6381,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6</name>
+            <name>IV6{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6832,7 +6837,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/vi\\</name>
+            <name>V/vi|HC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6870,7 +6875,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/vi</name>
+            <name>V7/vi{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
