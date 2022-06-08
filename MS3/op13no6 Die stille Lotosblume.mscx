@@ -11582,7 +11582,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII(4)</name>
+            <name>I(4)/bIII</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11687,7 +11687,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII</name>
+            <name>I/bIII</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -11850,7 +11850,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII</name>
+            <name>I/bIII</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11943,7 +11943,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII6</name>
+            <name>I6/bIII</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -12005,7 +12005,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII</name>
+            <name>I/bIII</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -12084,7 +12084,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII6</name>
+            <name>I/bIII6</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -12134,7 +12134,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII</name>
+            <name>I/bIII</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -12160,7 +12160,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/bIII\\</name>
+            <name>V/bIII|HC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
