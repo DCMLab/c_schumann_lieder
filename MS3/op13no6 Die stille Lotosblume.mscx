@@ -290,6 +290,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="68"/>
           <synti>Fluid</synti>
@@ -12084,7 +12085,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/bIII6</name>
+            <name>I6/bIII</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
