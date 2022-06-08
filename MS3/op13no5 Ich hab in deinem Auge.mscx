@@ -7238,7 +7238,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65|HC}</name>
+            <name>V65}</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7254,7 +7254,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7316,7 +7316,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[IV64-vi6{</name>
+            <name>I[IV64-vi6</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7406,7 +7406,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]}{</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -7551,7 +7551,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7567,7 +7567,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
