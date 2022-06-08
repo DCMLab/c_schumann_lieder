@@ -8333,7 +8333,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Ab.V7(94)</name>
+            <name>Ab.V7(94){</name>
             <offset x="-2" y="-6"/>
             </Harmony>
           <Spanner type="Pedal">
@@ -13439,7 +13439,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7|HC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -13873,7 +13873,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataBelow</subtype>
