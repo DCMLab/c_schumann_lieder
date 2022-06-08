@@ -12269,7 +12269,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65{</name>
             <offset x="-1" y="-6"/>
             </Harmony>
           <Chord>
@@ -12465,7 +12465,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7|HC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -12581,7 +12581,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(64)</name>
+            <name>V7(64){</name>
             <offset x="0" y="-9"/>
             </Harmony>
           <Chord>
