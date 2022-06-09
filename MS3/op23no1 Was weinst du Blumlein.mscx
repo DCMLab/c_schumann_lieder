@@ -5861,7 +5861,7 @@
           <Beam>
             <Fragment>
               <y1>-0.75</y1>
-              <y2>-1.70093e-15</y2>
+              <y2>-2.86473e-15</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -8465,7 +8465,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
