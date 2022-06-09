@@ -5116,22 +5116,17 @@
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
-            <Stem>
-              <offset x="0.251563" y="7.5"/>
-              </Stem>
             <Note>
-              <offset x="-1" y="7.5"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
             <Note>
-              <offset x="-1" y="6.5"/>
               <pitch>56</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="7.8"/>
+            <offset x="0.423764" y="-0.0396318"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -7793,7 +7788,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7813,7 +7808,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
