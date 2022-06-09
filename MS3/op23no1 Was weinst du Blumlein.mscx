@@ -7464,7 +7464,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii6</name>
+            <name>i6/ii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7502,7 +7502,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>i/ii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
