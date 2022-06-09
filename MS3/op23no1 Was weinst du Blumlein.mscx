@@ -3930,31 +3930,21 @@
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              <anchor>3</anchor>
-              </Articulation>
-            <Stem>
-              <offset x="0.251563" y="7.5"/>
-              </Stem>
             <Note>
-              <offset x="-1" y="7.5"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
             <Note>
-              <offset x="-1" y="6.5"/>
               <pitch>56</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="10"/>
+            <offset x="0.142018" y="0.0469669"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -6740,6 +6730,10 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -6891,7 +6885,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6916,7 +6910,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           </voice>
         </Measure>
