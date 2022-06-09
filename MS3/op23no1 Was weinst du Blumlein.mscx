@@ -6068,7 +6068,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>A.V</name>
+            <name>A.V{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -6259,7 +6259,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V}{</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -6314,7 +6314,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataBelow</subtype>
@@ -6333,6 +6333,10 @@
             <offset x="0.40985" y="-3.14445"/>
             <text>a tempo</text>
             </StaffText>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
