@@ -4193,12 +4193,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            <Fragment>
-              <y1>0.75</y1>
-              <y2>0.75</y2>
-              </Fragment>
-            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -4215,14 +4209,6 @@
                   </location>
                 </next>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <offset x="0.658279" y="4.90078"/>
-              </Articulation>
-            <Stem>
-              <offset x="1.25156" y="3.5"/>
-              <userLen>-0.5</userLen>
-              </Stem>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -7107,7 +7093,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V}{</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7229,7 +7215,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataBelow</subtype>
@@ -7243,6 +7229,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
