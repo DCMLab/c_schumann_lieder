@@ -9637,7 +9637,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii\\</name>
+            <name>i/iii|IAC}</name>
             </Harmony>
           <Tuplet>
             <offset x="-0.629473" y="3.65094"/>
@@ -9802,7 +9802,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43/ii</name>
+            <name>#viio43/ii{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
