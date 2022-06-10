@@ -5807,7 +5807,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.viio6(42)</name>
+            <name>D.viio6(42){</name>
             <offset x="0" y="-8.4"/>
             </Harmony>
           <Rest>
@@ -6014,7 +6014,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7|HC}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -6031,7 +6031,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(64)</name>
+            <name>V7(64){</name>
             </Harmony>
           </voice>
         </Measure>
