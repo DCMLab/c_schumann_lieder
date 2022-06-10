@@ -7927,7 +7927,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(94)/iii</name>
+            <name>V7(94)/V/vi</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7941,7 +7941,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/iii</name>
+            <name>V7/V/vi</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
