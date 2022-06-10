@@ -8447,7 +8447,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi\\</name>
+            <name>vi}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -9300,7 +9300,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
