@@ -8421,7 +8421,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/iii</name>
+            <name>iii64</name>
             <offset x="-1" y="-6"/>
             </Harmony>
           <Chord>
@@ -8452,7 +8452,7 @@
             <name>V/iii</name>
             </Harmony>
           <Tuplet>
-            <offset x="-0.629473" y="6"/>
+            <offset x="-0.629473" y="0.0215261"/>
             <normalNotes>4</normalNotes>
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
@@ -9324,7 +9324,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/iii</name>
+            <name>iii64</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
