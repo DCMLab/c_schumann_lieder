@@ -7329,10 +7329,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii64</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -7343,10 +7339,6 @@
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii</name>
-            </Harmony>
           <Rest>
             <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
