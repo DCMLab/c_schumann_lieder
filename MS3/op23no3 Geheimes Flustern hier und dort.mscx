@@ -7796,7 +7796,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7818,7 +7818,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/vi</name>
+            <name>V6/vi{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7988,7 +7988,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -8385,7 +8385,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
