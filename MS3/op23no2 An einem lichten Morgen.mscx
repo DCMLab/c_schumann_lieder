@@ -5961,7 +5961,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I64</name>
             </Harmony>
           <Tuplet>
             <normalNotes>4</normalNotes>
