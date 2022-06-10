@@ -4673,7 +4673,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2(4)/V</name>
+            <name>V2(4)/V}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4691,7 +4691,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/V</name>
+            <name>V2/V{</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
