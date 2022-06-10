@@ -3660,7 +3660,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>F.I</name>
+            <name>F.I{</name>
             </Harmony>
           <Tuplet>
             <offset x="-1.13305" y="7.55368"/>
@@ -5023,7 +5023,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Tuplet>
             <offset x="-0.377684" y="7.0501"/>
@@ -5280,6 +5280,10 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Tuplet>
             <offset x="0.377684" y="-9.06441"/>
             <normalNotes>4</normalNotes>
