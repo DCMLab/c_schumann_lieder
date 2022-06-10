@@ -11988,7 +11988,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Tuplet>
             <offset x="-1.13305" y="7"/>
@@ -12167,7 +12167,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43/V</name>
+            <name>viio43/V{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -12214,7 +12214,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Tuplet>
             <offset x="-1.13305" y="7"/>
@@ -12388,7 +12388,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43/V</name>
+            <name>viio43/V{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
