@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -223,7 +223,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.41</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -245,6 +244,7 @@
     <metaTag name="originalFormat">musicxml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
@@ -293,6 +293,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="68"/>
           <synti>Fluid</synti>
           </Channel>
@@ -355,6 +356,10 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
@@ -1907,13 +1912,13 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>sun</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>sin</text>
               </Lyrics>
             <Note>
@@ -1925,7 +1930,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>gen</text>
               </Lyrics>
             <Lyrics>
@@ -1945,12 +1950,12 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>er</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>o</text>
               </Lyrics>
             <Note>
@@ -2013,12 +2018,12 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>zum</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>o</text>
               </Lyrics>
             <Note>
@@ -2035,7 +2040,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>Klan</text>
               </Lyrics>
             <Lyrics>
@@ -2080,12 +2085,12 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>er</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>o</text>
               </Lyrics>
             <Note>
@@ -2101,7 +2106,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>wird</text>
               </Lyrics>
             <Lyrics>
@@ -2140,12 +2145,12 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>zum</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>o</text>
               </Lyrics>
             <Note>
@@ -2161,12 +2166,12 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>Klan</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>Lust</text>
               </Lyrics>
             <Note>
@@ -2178,12 +2183,12 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>ge</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>vom</text>
               </Lyrics>
             <Note>
@@ -2207,7 +2212,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>un</text>
               </Lyrics>
             <Note>
@@ -2220,12 +2225,12 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>be</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>ein</text>
               </Lyrics>
             <Note>
@@ -2233,16 +2238,19 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>1</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>wusst</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>Lied</text>
               </Lyrics>
             <Note>
@@ -2253,12 +2261,12 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <offset x="-2.5e-07" y="4.5"/>
+              <offset x="-2.5e-7" y="4.5"/>
               <text>für</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>in's</text>
               </Lyrics>
             <Note>
@@ -2272,7 +2280,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>Berg</text>
               </Lyrics>
             <Note>
@@ -2286,7 +2294,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <no>1</no>
-              <offset x="-2.5e-07" y="7.2522"/>
+              <offset x="-2.5e-7" y="7.2522"/>
               <text>ein</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -2504,9 +2512,6 @@
             <durationType>measure</durationType>
             <duration>6/8</duration>
             </Rest>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>end</subtype>
             </BarLine>
@@ -6772,6 +6777,7 @@
               <velocity>15</velocity>
               </Note>
             <Note>
+              <visible>0</visible>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>15</velocity>
@@ -9109,9 +9115,6 @@
             <harmonyType>1</harmonyType>
             <name>#viio43/ii</name>
             </Harmony>
-          <Segment>
-            <leadingSpace>1</leadingSpace>
-            </Segment>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -9578,14 +9581,14 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
@@ -9622,14 +9625,14 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
