@@ -430,16 +430,16 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -2501,8 +2501,8 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
             </Rest>
           </voice>
         </Measure>
