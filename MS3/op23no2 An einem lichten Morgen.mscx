@@ -289,6 +289,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="68"/>
           <synti>Fluid</synti>
@@ -7341,7 +7342,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/ii</name>
+            <name>V65/V/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
