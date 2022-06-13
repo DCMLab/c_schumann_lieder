@@ -1,5 +1,5 @@
 mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	cadence	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	1	0	0	6/8	3	1		Eb.I	Eb	I		I	I							M	0	0	0, 4, 1		0	0
+1	1	0	0	6/8	3	1		Eb.I{	Eb	I		I	I						{	M	0	0	0, 4, 1		0	0
 2	2	0	0	6/8	3	1		I6	Eb	I		I6	I		6					M	0	0	4, 1, 0		0	4
 3	3	0	0	6/8	3	1		I64	Eb	I		I64	I		64					M	0	0	1, 0, 4		0	1
 3	3	3/8	3/8	6/8	3	1		I6	Eb	I		I6	I		6					M	0	0	4, 1, 0		0	4
@@ -9,7 +9,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 4	4	1/8	1/8	6/8	3	1		I	Eb	I		I	I							M	0	0	0, 4, 1		0	0
 4	4	1/4	1/4	6/8	3	1		I64	Eb	I		I64	I		64					M	0	0	1, 0, 4		0	1
 4	4	3/8	3/8	6/8	3	1		V7	Eb	I		V7	V		7					Mm7	0	0	1, 5, 2, -1		1	1
-5	5	0	0	6/8	3	1		I\\	Eb	I		I	I						\\	M	0	0	0, 4, 1		0	0
+5	5	0	0	6/8	3	1		I|IAC}{	Eb	I		I	I					IAC	}{	M	0	0	0, 4, 1		0	0
 6	6	0	0	6/8	3	1		I6	Eb	I		I6	I		6					M	0	0	4, 1, 0		0	4
 7	7	0	0	6/8	3	1		I64	Eb	I		I64	I		64					M	0	0	1, 0, 4		0	1
 8	8	0	0	6/8	3	1		IV6	Eb	I		IV6	IV		6					M	0	0	3, 0, -1		-1	3
@@ -18,22 +18,22 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 9	9	3/8	3/8	6/8	3	1		I	Eb	I		I	I							M	0	0	0, 4, 1		0	0
 10	10	0	0	6/8	3	1		V7(4)/V	Eb	I		V7(4)/V	V		7	4	V			Mm7	0	0	2, 1, 3, 0		2	2
 10	10	3/8	3/8	6/8	3	1		V7/V	Eb	I		V7/V	V		7		V			Mm7	0	0	2, 6, 3, 0		2	2
-11	11	0	0	6/8	3	1		V\\	Eb	I		V	V						\\	M	0	0	1, 5, 2		1	1
+11	11	0	0	6/8	3	1		V|HC}	Eb	I		V	V					HC	}	M	0	0	1, 5, 2		1	1
 12	12	0	0	6/8	3	1		V6	Eb	I		V6	V		6					M	0	0	5, 2, 1		1	5
 12	12	3/16	3/16	6/8	3	1		V	Eb	I		V	V							M	0	0	1, 5, 2		1	1
 12	12	1/4	1/4	6/8	3	1		V64	Eb	I		V64	V		64					M	0	0	2, 1, 5		1	2
 12	12	3/8	3/8	6/8	3	1		V6	Eb	I		V6	V		6					M	0	0	5, 2, 1		1	5
 12	12	1/2	1/2	6/8	3	1		V	Eb	I		V	V							M	0	0	1, 5, 2		1	1
-12	12	5/8	5/8	6/8	3	1		V64	Eb	I		V64	V		64					M	0	0	2, 1, 5		1	2
+12	12	5/8	5/8	6/8	3	1		V64{	Eb	I		V64	V		64				{	M	0	0	2, 1, 5		1	2
 13	13	0	0	6/8	3	1		vii%65(2)/V	Eb	I		vii%65(2)/V	vii	%	65	2	V			%7	0	0	3, 0, 4, 1		6	3
 13	13	3/8	3/8	6/8	3	1		vii%65/V	Eb	I		vii%65/V	vii	%	65		V			%7	0	0	3, 0, 4, 6		6	3
-14	14	0	0	6/8	3	1		V7(94)/iii	Eb	I		V7(94)/iii	V		7	94	iii			Mm7	0	0	5, 4, 6, 3	0	5	5
-14	14	1/4	1/4	6/8	3	1		V7/iii	Eb	I		V7/iii	V		7		iii			Mm7	0	0	5, 9, 6, 3		5	5
+14	14	0	0	6/8	3	1		V7(94)/V/vi	Eb	I		V7(94)/V/vi	V		7	94	V/vi			Mm7	0	0	5, 4, 6, 3	7	5	5
+14	14	1/4	1/4	6/8	3	1		V7/V/vi	Eb	I		V7/V/vi	V		7		V/vi			Mm7	0	0	5, 9, 6, 3		5	5
 15	15	0	0	6/8	3	1		V43(6)/vi	Eb	I		V43(6)/vi	V		43	6	vi			Mm7	0	0	0, 2, 4, 8		4	0
 15	15	3/8	3/8	6/8	3	1		vi6	Eb	I		vi6	vi		6					m	0	0	0, 4, 3		3	0
 16	16	0	0	6/8	3	1		ii2/V	Eb	I		ii2/V	ii		2		V			mm7	0	0	1, 3, 0, 4		3	1
 16	16	3/8	3/8	6/8	3	1		V65/V	Eb	I		V65/V	V		65		V			Mm7	0	0	6, 3, 0, 2		2	6
-17	17	0	0	6/8	3	1		V	Eb	I		V	V							M	0	0	1, 5, 2		1	1
+17	17	0	0	6/8	3	1		V|HC}{	Eb	I		V	V					HC	}{	M	0	0	1, 5, 2		1	1
 17	17	3/8	3/8	6/8	3	1		#viio7/ii	Eb	I		#viio7/ii	#vii	o	7		ii			o7	0	0	7, 4, 1, -2		7	7
 18	18	0	0	6/8	3	1		V65/V	Eb	I		V65/V	V		65		V			Mm7	0	0	6, 3, 0, 2		2	6
 18	18	3/8	3/8	6/8	3	1		V7/V	Eb	I		V7/V	V		7		V			Mm7	0	0	2, 6, 3, 0		2	2
@@ -49,7 +49,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 23	23	3/8	3/8	6/8	3	1		V65/vi	Eb	I		V65/vi	V		65		vi			Mm7	0	0	8, 5, 2, 4		4	8
 24	24	0	0	6/8	3	1		#viio43/iii	Eb	I		#viio43/iii	#vii	o	43		iii			o7	0	0	3, 0, 9, 6		9	3
 24	24	3/8	3/8	6/8	3	1		V65/vi	Eb	I		V65/vi	V		65		vi			Mm7	0	0	8, 5, 2, 4		4	8
-25	25	0	0	6/8	3	1		vi\\	Eb	I		vi	vi						\\	m	0	0	3, 0, 4		3	3
+25	25	0	0	6/8	3	1		vi}{	Eb	I		vi	vi						}{	m	0	0	3, 0, 4		3	3
 26	26	0	0	6/8	3	1		IV6	Eb	I		IV6	IV		6					M	0	0	3, 0, -1		-1	3
 26	26	3/8	3/8	6/8	3	1		viio65/V	Eb	I		viio65/V	vii	o	65		V			o7	0	0	3, 0, -3, 6		6	3
 27	27	0	0	6/8	3	1		V65	Eb	I		V65	V		65					Mm7	0	0	5, 2, -1, 1		1	5
@@ -79,7 +79,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 35	35	5/8	5/8	6/8	3	1		V(64)	Eb	I	V	V(64)	V			64				M	0	0	1, 0, 4		1	1
 36	36	0	0	6/8	3	1		V7(64)	Eb	I	V	V7(64)	V		7	64				Mm7	0	0	1, 0, 4, -1		1	1
 36	36	3/8	3/8	6/8	3	1		V7]	Eb	I	V	V7	V		7					Mm7	0	0	1, 5, 2, -1		1	1
-37	37	0	0	6/8	3	1		I\\	Eb	I		I	I						\\	M	0	0	0, 4, 1		0	0
+37	37	0	0	6/8	3	1		I|PAC}{	Eb	I		I	I					PAC	}{	M	0	0	0, 4, 1		0	0
 38	38	0	0	6/8	3	1		I6	Eb	I		I6	I		6					M	0	0	4, 1, 0		0	4
 39	39	0	0	6/8	3	1		I64	Eb	I		I64	I		64					M	0	0	1, 0, 4		0	1
 39	39	3/16	3/16	6/8	3	1		I	Eb	I		I	I							M	0	0	0, 4, 1		0	0
@@ -88,4 +88,4 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	globalkey	localkey	pedal
 39	39	1/2	1/2	6/8	3	1		I	Eb	I		I	I							M	0	0	0, 4, 1		0	0
 39	39	5/8	5/8	6/8	3	1		I64	Eb	I		I64	I		64					M	0	0	1, 0, 4		0	1
 40	40	0	0	6/8	3	1		V7	Eb	I		V7	V		7					Mm7	0	0	1, 5, 2, -1		1	1
-40	40	3/8	3/8	6/8	3	1		I\\	Eb	I		I	I						\\	M	0	0	0, 4, 1		0	0
+40	40	3/8	3/8	6/8	3	1		I|PAC}	Eb	I		I	I					PAC	}	M	0	0	0, 4, 1		0	0
