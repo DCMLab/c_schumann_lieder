@@ -5,6 +5,7 @@
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op13no5 Ich hab in deinem Auge.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op13no6 Die stille Lotosblume.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op23no1 Was weinst du Blumlein.html" height="600" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op23no2 An einem lichten Morgen.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op23no4 Auf einem grunen Hugel.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op23no5 Das ist ein Tag der klingen mag.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op23no6 O Lust o Lust.html" height="600" width="100%"></iframe>
