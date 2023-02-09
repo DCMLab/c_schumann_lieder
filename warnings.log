@@ -1,0 +1,10 @@
+Warnings encountered during the last execution of ms3 review (v1.2.2)
+=====================================================================
+
+ERROR    ms3.Parse.c_schumann_lieder.op23no3 Geheimes Flustern hier und dort -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 540) get_volta_structure():
+	Could not compute volta structure because at least one MC contains several of them:      mc voice/Spanner/Volta/endings voice/Spanner/next/location/measures
+	120  41                        1, 2                                    6
+	138  47                           3                                    1
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                                           mc  mn mc_onset label chord_tones added_tones  n_colored  n_untouched  count_ratio
+c_schumann_lieder MS3/op23no1 Was weinst du Blumlein.mscx  30  29        0    i6   (0, 4, 3)          ()          2            1     0.666667
