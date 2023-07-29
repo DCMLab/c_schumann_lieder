@@ -2,7 +2,7 @@
 
 Labels have old phrase annotations and are missing cadence labels.
 
-# Overview
+## Overview
 |               file_name               |measures|labels|standard| annotators |reviewers|
 |---------------------------------------|-------:|-----:|--------|------------|---------|
 |op13no1 Ich stand in dunklen Traumen   |      37|   103|2.3.0   |Adrian Nagel|AB       |
@@ -19,4 +19,4 @@ Labels have old phrase annotations and are missing cadence labels.
 |op23no6 O Lust o Lust                  |      40|    90|2.3.0   |Adrian Nagel|AB       |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.2.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
