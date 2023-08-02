@@ -242,7 +242,7 @@
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">https://musescore.com/openscore-lieder-corpus/scores/5142672</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber">23</metaTag>
     <metaTag name="workTitle">6 Lieder, Op.23</metaTag>
@@ -290,6 +290,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="68"/>
           <synti>Fluid</synti>
@@ -369,6 +370,7 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>User-1</style>
+          <offset x="-0.17047" y="8.01208"/>
           <text>6 Lieder, Op.23</text>
           </Text>
         <Text>
@@ -381,7 +383,7 @@
           </Text>
         <Text>
           <style>Title</style>
-          <offset x="1.28348" y="4.58371"/>
+          <offset x="1.62849" y="-0.530384"/>
           <text>4. Auf einem grünen Hügel</text>
           </Text>
         </VBox>
