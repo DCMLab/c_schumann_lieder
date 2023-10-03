@@ -364,46 +364,36 @@
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
-        <shortName>Pno.</shortName>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>13.8</height>
+        <height>21.0955</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
-          <style>User-1</style>
-          <offset x="-0.511409" y="8.86443"/>
-          <text>6 Lieder, Op.23</text>
-          </Text>
-        <Text>
-          <style>User-2</style>
-          <offset x="0" y="0.681879"/>
-          <text>5. Das ist ein Tag, der klingen mag</text>
-          </Text>
-        <Text>
           <style>Title</style>
+          <offset x="0.190723" y="0.381447"/>
           <text>5. Das ist ein Tag, der klingen mag</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <text>from: 6 Lieder aus Jucunde, Op. 23</text>
+          <text>from: <i>6 Lieder aus Jucunde</i>, Op. 23</text>
           </Text>
         <Text>
           <style>Composer</style>
+          <offset x="0" y="-5.52918"/>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
+          <offset x="0" y="-5.52918"/>
           <text>Hermann Rollett</text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>3.63279</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
         </VBox>
       <HBox>
         <width>5</width>
@@ -420,9 +410,14 @@
             <sigD>8</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.8</tempo>
-            <offset x="-23.0069" y="-7.97308"/>
+            <tempo>1.93333</tempo>
             <text>Lebhaft</text>
+            </Tempo>
+          <Tempo>
+            <tempo>1.4000000000000001</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 56</b></text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -570,8 +565,8 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -644,9 +639,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.77756" y="1.50409"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -885,11 +877,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1004,8 +991,8 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1135,31 +1122,27 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
             </Rest>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <boxAutoSize>0</boxAutoSize>
-        </VBox>
       <Measure>
         <voice>
           <Rest>
@@ -2945,11 +2928,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.50409" y="-0.683678"/>
-                  <o4 x="-0.273471" y="-0.820413"/>
-                  <offset x="0" y="-2.18777"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3075,11 +3053,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0.546942" y="-0.273471"/>
-                  <o4 x="-0.136736" y="-0.136736"/>
-                  <offset x="0.410207" y="-2.59798"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3110,10 +3083,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.36736" y="-3.14492"/>
-                  <o4 x="0.136736" y="-3.28165"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3239,10 +3208,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.23062" y="-3.00818"/>
-                  <o4 x="0" y="-3.28165"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3273,10 +3238,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.36736" y="-2.87145"/>
-                  <o4 x="-0.136736" y="-3.28165"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -3403,10 +3364,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.36736" y="-2.73471"/>
-                  <o4 x="-0.136736" y="-3.00818"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3437,10 +3394,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.50409" y="-3.55512"/>
-                  <o4 x="-0.410207" y="-3.41839"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3541,10 +3494,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.23062" y="-3.41839"/>
-                  <o4 x="0.136736" y="-3.28165"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6148,11 +6097,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.136736" y="-0.273471"/>
-                  <o3 x="0.136736" y="-0.273471"/>
-                  <offset x="0" y="-0.136736"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6494,10 +6438,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0.136736" y="3.28165"/>
-                  <o4 x="-1.09388" y="2.59798"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6536,11 +6476,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0.273471" y="3.41839"/>
-                  <o4 x="0.136736" y="3.41839"/>
-                  <offset x="-0.136736" y="-0.28554"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7778,12 +7713,7 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="5.9706"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -8065,8 +7995,13 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="5.3483"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>

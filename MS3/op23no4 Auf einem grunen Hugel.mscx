@@ -410,6 +410,12 @@
             <tempo>0.83333299999999999</tempo>
             <text>Langsam</text>
             </Tempo>
+          <Tempo>
+            <tempo>0.73333333333333328</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 44</b></text>
+            </Tempo>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
