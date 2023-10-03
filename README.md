@@ -19,4 +19,4 @@ Labels have old phrase annotations and are missing cadence labels.
 |op23no6 O Lust o Lust                  |      40|    90|2.3.0   |Adrian Nagel|AB       |
 
 
-*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
