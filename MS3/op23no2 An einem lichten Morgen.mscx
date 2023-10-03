@@ -227,9 +227,10 @@
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1853</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Clara_Schumann</metaTag>
     <metaTag name="composed_start">1853</metaTag>
     <metaTag name="composer">Clara Schumann</metaTag>
-    <metaTag name="copyright">Creative Commons copyright waiver (CC0 1.0 Universal)</metaTag>
+    <metaTag name="copyright">OpenScore (CC0)</metaTag>
     <metaTag name="creationDate">2018-06-14</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="imslp">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
@@ -237,14 +238,18 @@
     <metaTag name="movementNumber">2</metaTag>
     <metaTag name="movementTitle">An einem lichten Morgen</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/f2ea76f6-e65c-4ad6-9356-69da16d10b6b</metaTag>
     <metaTag name="originalFormat">musicxml</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/openscore-lieder-corpus/scores/5133773</metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber">23</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/317275603/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q97192858</metaTag>
+    <metaTag name="workNumber">Op.23</metaTag>
     <metaTag name="workTitle">6 Lieder, Op.23</metaTag>
     <Part>
       <Staff id="1">
