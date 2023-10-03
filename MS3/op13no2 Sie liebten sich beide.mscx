@@ -411,6 +411,12 @@
             <tempo>1.18333</tempo>
             <text>Nicht schnell</text>
             </Tempo>
+          <Tempo>
+            <tempo>1.1000000000000001</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 44</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/8</duration>
@@ -6861,7 +6867,7 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Stem>
-              <userLen>9.23054</userLen>
+              <userLen>11.175</userLen>
               </Stem>
             <Note>
               <Spanner type="Tie">
@@ -6914,7 +6920,7 @@
                 </prev>
               </Spanner>
             <Stem>
-              <userLen>9.2685</userLen>
+              <userLen>11.2129</userLen>
               </Stem>
             <Note>
               <Spanner type="Tie">
