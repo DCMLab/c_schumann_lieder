@@ -374,7 +374,7 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Subtitle</style>
-          <text>from: 6 Lieder mit Begleitung des Pianoforte, op.13</text>
+          <text>from: <i>6 Lieder mit Begleitung des Pianoforte</i>, op.13</text>
           </Text>
         <Text>
           <style>Composer</style>
@@ -412,7 +412,7 @@
             <tempo>0.90000000000000002</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 54</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 54</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>

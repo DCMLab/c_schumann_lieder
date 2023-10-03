@@ -379,7 +379,7 @@
           </Text>
         <Text>
           <style>Subtitle</style>
-          <text>from: 6 Lieder mit Begleitung des Pianoforte, op.13</text>
+          <text>from: <i>6 Lieder mit Begleitung des Pianoforte</i>, op.13</text>
           </Text>
         <Text>
           <style>Composer</style>
@@ -416,7 +416,7 @@
             <tempo>1.5333333333333332</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 92</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 92</b></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
