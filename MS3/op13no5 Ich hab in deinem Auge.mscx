@@ -223,7 +223,7 @@
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
-    <showFrames>0</showFrames>
+    <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="P86 (composer)">Q132232</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
@@ -296,6 +296,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="68"/>
           <synti>Fluid</synti>
@@ -360,28 +361,30 @@
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
-        <shortName>Pno.</shortName>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>11.9</height>
+        <height>20.232</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
-          <style>User-1</style>
-          <text>6 Lieder, Op.13</text>
-          </Text>
-        <Text>
           <style>Subtitle</style>
-          <text>from: 6 Lieder mit Begleitung des Pianoforte, op.13</text>
+          <offset x="0" y="12.1022"/>
+          <text>from: <i>6 Lieder mit Begleitung des Pianoforte</i>, op.13</text>
           </Text>
         <Text>
           <style>Composer</style>
+          <offset x="0.262777" y="-4.72999"/>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
+          <offset x="0.262777" y="-4.72999"/>
           <text>Friedrich Rückert</text>
           </Text>
         <Text>
@@ -389,12 +392,6 @@
           <offset x="0" y="4.22592"/>
           <text>5. Ich hab' in Deinem Auge</text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>2</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
         </VBox>
       <HBox>
         <width>3</width>
@@ -411,9 +408,14 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.0833299999999999</tempo>
-            <offset x="-23.2926" y="-7.01141"/>
+            <tempo>0.83333299999999999</tempo>
             <text>Langsam</text>
+            </Tempo>
+          <Tempo>
+            <tempo>0.76666666666666661</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 46</b></text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -459,11 +461,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="2" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -591,11 +588,6 @@
             <HairPin>
               <subtype>0</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -656,11 +648,6 @@
             <HairPin>
               <subtype>1</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="-1.4" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -692,11 +679,6 @@
             <HairPin>
               <subtype>1</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1006,24 +988,24 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1172,11 +1154,6 @@
               <subtype>1</subtype>
               <veloChange>10</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1251,11 +1228,6 @@
               <subtype>1</subtype>
               <veloChange>10</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="-3" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1803,11 +1775,6 @@
               <veloChange>30</veloChange>
               <dynType>2</dynType>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="-3" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1870,13 +1837,13 @@
               <placement>above</placement>
               <Segment>
                 <subtype>1</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="-5" y="0"/>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="-3.5"/>
-                <off2 x="0" y="0"/>
+                <offset x="0" y="-2.5"/>
+                <off2 x="-5" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -2240,13 +2207,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -2527,11 +2489,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2605,11 +2562,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.7"/>
-                <off2 x="0" y="-0.5"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2662,11 +2614,6 @@
               <subtype>1</subtype>
               <veloChange>20</veloChange>
               <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.6"/>
-                <off2 x="-4.4" y="-0.8"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2777,9 +2724,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.4"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3166,11 +3110,6 @@
             <HairPin>
               <subtype>0</subtype>
               <veloChange>20</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3265,11 +3204,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>10</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3432,11 +3366,6 @@
             <HairPin>
               <subtype>0</subtype>
               <veloChange>10</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.8"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3465,11 +3394,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>10</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.9"/>
-                <off2 x="-2" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3655,11 +3579,6 @@
               <subtype>0</subtype>
               <veloChange>10</veloChange>
               <dynType>2</dynType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="-4.6" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3723,11 +3642,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>20</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3778,11 +3692,6 @@
             <HairPin>
               <subtype>0</subtype>
               <veloChange>10</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-3.1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3831,11 +3740,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>20</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-2" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -5031,11 +4935,6 @@
             <HairPin>
               <subtype>0</subtype>
               <veloChange>30</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.7"/>
-                <off2 x="-6" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -5153,11 +5052,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-0.6"/>
-                  <o3 x="0" y="-0.6"/>
-                  <offset x="0" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -8090,10 +7984,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I]}</name>
@@ -8104,11 +7994,6 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5"/>
-                <off2 x="3" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
