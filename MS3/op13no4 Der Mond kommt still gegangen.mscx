@@ -371,7 +371,7 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>18.4804</height>
+        <height>23.9264</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
@@ -380,22 +380,18 @@
           </Text>
         <Text>
           <style>Composer</style>
+          <offset x="0" y="-7.54409"/>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
+          <offset x="0" y="-7.54409"/>
           <text>Emanuel Geibel</text>
           </Text>
         <Text>
           <style>Title</style>
           <text>4. Der Mond kommt still gegangen</text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>17.6895</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
         </VBox>
       <HBox>
         <width>3</width>
@@ -1243,10 +1239,6 @@
             </Rest>
           </voice>
         </Measure>
-      <VBox>
-        <height>23.1</height>
-        <boxAutoSize>0</boxAutoSize>
-        </VBox>
       <Measure>
         <voice>
           <Chord>
@@ -1291,11 +1283,6 @@
             <HairPin>
               <subtype>1</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="5" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1510,11 +1497,6 @@
             <HairPin>
               <subtype>0</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1677,16 +1659,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <placement>above</placement>
-              <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="-4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="-3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3481,11 +3453,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3707,16 +3674,6 @@
               <subtype>3</subtype>
               <endText></endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4059,10 +4016,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-3.1"/>
-                  <o4 x="0" y="-0.9"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5975,11 +5928,6 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -6862,9 +6810,6 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="2.2" y="0"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -7038,9 +6983,6 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="2.5" y="0"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
