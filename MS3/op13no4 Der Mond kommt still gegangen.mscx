@@ -323,7 +323,6 @@
       <trackName>Piano</trackName>
       <Instrument id="piano">
         <longName>Piano</longName>
-        <shortName>Pno.</shortName>
         <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
@@ -410,7 +409,7 @@
             <tempo>1</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 40</b></text>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 40</b></text>
             </Tempo>
           <Rest>
             <dots>1</dots>
