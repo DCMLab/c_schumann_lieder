@@ -322,14 +322,14 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Piano</trackName>
-      <Instrument id="grand-piano">
+      <Instrument id="piano">
         <longName>Piano</longName>
-        <trackName>Grand Piano</trackName>
+        <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+        <instrumentId>keyboard.piano</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -363,10 +363,7 @@
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <shortName>Pno.</shortName>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -380,12 +377,16 @@
           <text>6 Lieder, Op.23</text>
           </Text>
         <Text>
+          <style>Subtitle</style>
+          <text>from: 6 Lieder aus Jucunde, Op. 23</text>
+          </Text>
+        <Text>
           <style>Composer</style>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text>Hermann Rollet</text>
+          <text>Hermann Rollett</text>
           </Text>
         <Text>
           <style>Title</style>
