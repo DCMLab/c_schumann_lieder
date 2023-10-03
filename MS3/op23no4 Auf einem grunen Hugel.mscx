@@ -223,7 +223,7 @@
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
-    <showFrames>0</showFrames>
+    <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="P86 (composer)">Q132232</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
@@ -363,29 +363,30 @@
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
-        <shortName>Pno.</shortName>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>13.2</height>
+        <height>17.2415</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
-          <style>User-1</style>
-          <offset x="-0.17047" y="8.01208"/>
-          <text>6 Lieder, Op.23</text>
-          </Text>
-        <Text>
           <style>Subtitle</style>
-          <text>from: 6 Lieder aus Jucunde, Op. 23</text>
+          <offset x="0" y="7.95324"/>
+          <text>from: <i>6 Lieder aus Jucunde</i>, Op. 23</text>
           </Text>
         <Text>
           <style>Composer</style>
+          <offset x="0" y="-4.38592"/>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
+          <offset x="0" y="-4.38592"/>
           <text>Hermann Rollett</text>
           </Text>
         <Text>
@@ -393,12 +394,6 @@
           <offset x="1.62849" y="-0.530384"/>
           <text>4. Auf einem grünen Hügel</text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>3.74221</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
         </VBox>
       <HBox>
         <width>3</width>
@@ -411,11 +406,10 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <SystemText>
-            <style>Tempo</style>
-            <offset x="-19.4455" y="-8.05197"/>
-            <text>Langsam.</text>
-            </SystemText>
+          <Tempo>
+            <tempo>0.83333299999999999</tempo>
+            <text>Langsam</text>
+            </Tempo>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -424,7 +418,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -596,11 +591,6 @@
               <subtype>0</subtype>
               <veloChange>40</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -787,11 +777,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -900,11 +885,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -956,10 +936,6 @@
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="0.61531"/>
-                  <o3 x="0" y="0.61531"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1064,7 +1040,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1181,11 +1158,6 @@
               <subtype>1</subtype>
               <veloChange>40</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1321,10 +1293,6 @@
             </Chord>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <boxAutoSize>0</boxAutoSize>
-        </VBox>
       <Measure>
         <irregular>1</irregular>
         <voice>
@@ -2350,11 +2318,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.5"/>
-                <off2 x="-3.19961" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2471,11 +2434,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.5"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2735,11 +2693,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.5"/>
-                <off2 x="-4.08336" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2903,11 +2856,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>10</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="-1.68771" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
