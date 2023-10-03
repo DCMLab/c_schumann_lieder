@@ -226,6 +226,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="P86 (composer)">Q132232</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1842</metaTag>
@@ -252,7 +253,7 @@
     <metaTag name="viaf">https://viaf.org/viaf/175203352/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q93451955</metaTag>
     <metaTag name="workNumber">Op.13</metaTag>
-    <metaTag name="workTitle">6 Lieder, Op.13</metaTag>
+    <metaTag name="workTitle">6 Lieder mit Begleitung des Pianoforte, op.13</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
