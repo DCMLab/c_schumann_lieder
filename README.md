@@ -1,7 +1,34 @@
+![Version](https://img.shields.io/github/v/release/DCMLab/c_schumann_lieder?display_name=tag)
+[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://zenodo.org/badge/latestdoi/{{ zenodo_badge_id }})
+![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/c_schumann_lieder)
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
+
+
+This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
+and serves as welcome page for both 
+
+* the GitHub repo [https://github.com/DCMLab/c_schumann_lieder](https://github.com/DCMLab/c_schumann_lieder) and the corresponding
+* documentation page [https://dcmlab.github.io/c_schumann_lieder](https://dcmlab.github.io/c_schumann_lieder)
+
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/c_schumann_lieder/introduction).
+
 # Clara Schumann – Lieder
 
 This corpus of annotated [MuseScore](https://musescore.org) files has been created within
-the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs the [DCML harmony annotation standard](https://github.com/DCMLab/standards). It consists of two song cycles by Clara Schumann, op. 13 and op. 23, written about ten years apart. Op. 13, completed three years after the composer's marriage to Robert Schumann, sets German Romantic poems by Heine, Geibel, and Rückert. Op. 23 was published with the title "6 Lieder aus Jucunde," drawing its text from the eponymous novel with poems by political radical Hermann Rollett, and was composed during the flurry of activity that accompanied the composer's close friendship with Johannes Brahms. Both cycles incorporate virtuosic piano accompaniments befitting their composer's status as a distinguished concert soloist. The annotations in this corpus illustrate the equally rich details found in high-Romantic chromatic harmony and counterpoint.
+the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
+the [DCML harmony annotation standard](https://github.com/DCMLab/standards). It consists of two song cycles by Clara
+Schumann, op. 13 and op. 23, written about ten years apart. Op. 13, completed three years after the composer's marriage
+to Robert Schumann, sets German Romantic poems by Heine, Geibel, and Rückert. Op. 23 was published with the title "6
+Lieder aus Jucunde," drawing its text from the eponymous novel with poems by political radical Hermann Rollett, and was
+composed during the flurry of activity that accompanied the composer's close friendship with Johannes Brahms. Both
+cycles incorporate virtuosic piano accompaniments befitting their composer's status as a distinguished concert soloist.
+The annotations in this corpus illustrate the equally rich details found in high-Romantic chromatic harmony and
+counterpoint.
+
+## Scores
+
+Piano scores downloaded from the
+wonderful [OpenScore Lieder](https://github.com/OpenScore/Lieder/tree/main/scores/Schumann%2C_Clara) project.
 
 ## Overview
 |               file_name               |measures|labels|standard| annotators |reviewers|
