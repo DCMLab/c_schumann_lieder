@@ -23,12 +23,12 @@ Lieder aus Jucunde," drawing its text from the eponymous novel with poems by pol
 composed during the flurry of activity that accompanied the composer's close friendship with Johannes Brahms. Both
 cycles incorporate virtuosic piano accompaniments befitting their composer's status as a distinguished concert soloist.
 The annotations in this corpus illustrate the equally rich details found in high-Romantic chromatic harmony and
-counterpoint.
+counterpoint. 
 
 ## Scores
 
-Piano scores downloaded from the
-wonderful [OpenScore Lieder](https://github.com/OpenScore/Lieder/tree/main/scores/Schumann%2C_Clara) project.
+These piano scores were downloaded from the
+wonderful [OpenScore Lieder](https://github.com/OpenScore/Lieder/tree/main/scores/Schumann%2C_Clara) project and minimally reformatted for annotation use. They correspond well to the widely-available first editions from Breitkopf und Härtel.
 
 ## Overview
 |               file_name               |measures|labels|standard| annotators |reviewers|
