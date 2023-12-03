@@ -223,29 +223,35 @@
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
-    <showFrames>0</showFrames>
+    <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="P86 (composer)">Q132232</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1853</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Clara_Schumann</metaTag>
     <metaTag name="composed_start">1853</metaTag>
     <metaTag name="composer">Clara Schumann</metaTag>
     <metaTag name="copyright">OpenScore (CC0)</metaTag>
     <metaTag name="creationDate">2018-06-15</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="imslp">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
-    <metaTag name="lyricist">Hermann Rollet</metaTag>
+    <metaTag name="lyricist">Hermann Rollett</metaTag>
     <metaTag name="movementNumber">4</metaTag>
     <metaTag name="movementTitle">Auf einem grünen Hügel</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/79bbbe7d-4f93-4456-8f83-ab491b8cc607</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/openscore-lieder-corpus/scores/5142672</metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber">23</metaTag>
-    <metaTag name="workTitle">6 Lieder, Op.23</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/317275603/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q97192858</metaTag>
+    <metaTag name="workNumber">Op.23</metaTag>
+    <metaTag name="workTitle">6 Lieder aus Jucunde, Op. 23</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -316,14 +322,14 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Piano</trackName>
-      <Instrument id="grand-piano">
+      <Instrument id="piano">
         <longName>Piano</longName>
-        <trackName>Grand Piano</trackName>
+        <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+        <instrumentId>keyboard.piano</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -365,33 +371,29 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>13.2</height>
+        <height>17.2415</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
-          <style>User-1</style>
-          <offset x="-0.17047" y="8.01208"/>
-          <text>6 Lieder, Op.23</text>
+          <style>Subtitle</style>
+          <offset x="0" y="7.95324"/>
+          <text>from: <i>6 Lieder aus Jucunde</i>, Op. 23</text>
           </Text>
         <Text>
           <style>Composer</style>
+          <offset x="0" y="-4.38592"/>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text>Hermann Rollet</text>
+          <offset x="0" y="-4.38592"/>
+          <text>Hermann Rollett</text>
           </Text>
         <Text>
           <style>Title</style>
           <offset x="1.62849" y="-0.530384"/>
           <text>4. Auf einem grünen Hügel</text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>3.74221</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
         </VBox>
       <HBox>
         <width>3</width>
@@ -404,11 +406,16 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <SystemText>
-            <style>Tempo</style>
-            <offset x="-19.4455" y="-8.05197"/>
-            <text>Langsam.</text>
-            </SystemText>
+          <Tempo>
+            <tempo>0.83333299999999999</tempo>
+            <text>Langsam</text>
+            </Tempo>
+          <Tempo>
+            <tempo>0.73333333333333328</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 44</b></text>
+            </Tempo>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -417,7 +424,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -589,11 +597,6 @@
               <subtype>0</subtype>
               <veloChange>40</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -780,11 +783,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -893,11 +891,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -949,10 +942,6 @@
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="0.61531"/>
-                  <o3 x="0" y="0.61531"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1057,7 +1046,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1174,11 +1164,6 @@
               <subtype>1</subtype>
               <veloChange>40</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1314,10 +1299,6 @@
             </Chord>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <boxAutoSize>0</boxAutoSize>
-        </VBox>
       <Measure>
         <irregular>1</irregular>
         <voice>
@@ -2343,11 +2324,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.5"/>
-                <off2 x="-3.19961" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2464,11 +2440,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.5"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2728,11 +2699,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.5"/>
-                <off2 x="-4.08336" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2896,11 +2862,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>10</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="-1.68771" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>

@@ -224,12 +224,14 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="P86 (composer)">Q132232</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1853</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Clara_Schumann</metaTag>
     <metaTag name="composed_start">1853</metaTag>
     <metaTag name="composer">Clara Schumann</metaTag>
-    <metaTag name="copyright">Creative Commons copyright waiver (CC0 1.0 Universal)</metaTag>
+    <metaTag name="copyright">OpenScore (CC0)</metaTag>
     <metaTag name="creationDate">2018-06-14</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="imslp">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
@@ -237,15 +239,19 @@
     <metaTag name="movementNumber">2</metaTag>
     <metaTag name="movementTitle">An einem lichten Morgen</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/f2ea76f6-e65c-4ad6-9356-69da16d10b6b</metaTag>
     <metaTag name="originalFormat">musicxml</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/openscore-lieder-corpus/scores/5133773</metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber">23</metaTag>
-    <metaTag name="workTitle">6 Lieder, Op.23</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/317275603/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q97192858</metaTag>
+    <metaTag name="workNumber">Op.23</metaTag>
+    <metaTag name="workTitle">6 Lieder aus Jucunde, Op. 23</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -315,14 +321,14 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Piano</trackName>
-      <Instrument id="grand-piano">
+      <Instrument id="piano">
         <longName>Piano</longName>
-        <trackName>Grand Piano</trackName>
+        <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+        <instrumentId>keyboard.piano</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -364,19 +370,22 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>13.8</height>
+        <height>23.978</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
-          <style>User-1</style>
-          <text>6 Lieder, Op.23</text>
+          <style>Subtitle</style>
+          <offset x="0" y="12.5081"/>
+          <text>from: <i>6 Lieder aus Jucunde</i>, Op. 23</text>
           </Text>
         <Text>
           <style>Composer</style>
+          <offset x="0" y="-6.17015"/>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
+          <offset x="0" y="-6.17015"/>
           <text>Hermann Rollett</text>
           </Text>
         <Text>
@@ -384,12 +393,6 @@
           <offset x="0.480932" y="4.04853"/>
           <text>2. An einem lichten Morgen</text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>3.63279</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
         </VBox>
       <HBox>
         <width>5</width>
@@ -406,9 +409,14 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.6666700000000001</tempo>
-            <offset x="-22.1205" y="-8.0298"/>
-            <text>Lebhaft .</text>
+            <tempo>2.3999999999999999</tempo>
+            <text>Lebhaft</text>
+            </Tempo>
+          <Tempo>
+            <tempo>1.5333333333333332</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 92</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -894,11 +902,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.19389"/>
-                <off2 x="-23" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2609,11 +2612,6 @@
               <veloChange>20</veloChange>
               <endText></endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.24089"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3681,9 +3679,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="7.83201e-17" y="-0.481775"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3887,12 +3882,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.503579" y="-3.27326"/>
-                  <o2 x="-1.51074" y="-5.53936"/>
-                  <o3 x="-7.80547" y="-2.76968"/>
-                  <o4 x="-0.755368" y="-1.00716"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4060,11 +4049,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-4.40631" y="-8.05726"/>
-                  <o3 x="-9.56799" y="-2.76969"/>
-                  <o4 x="-0.629474" y="-2.26611"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -4245,12 +4229,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.503579" y="-3.27326"/>
-                  <o2 x="-1.51074" y="-5.53936"/>
-                  <o3 x="-7.80547" y="-2.76968"/>
-                  <o4 x="-0.755368" y="-1.00716"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4456,12 +4434,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.503579" y="-3.27326"/>
-                  <o2 x="-1.51074" y="-5.53936"/>
-                  <o3 x="-7.80547" y="-2.76968"/>
-                  <o4 x="-0.755368" y="-1.00716"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4664,12 +4636,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.503579" y="-3.27326"/>
-                  <o2 x="-1.51074" y="-5.53936"/>
-                  <o3 x="-1.13305" y="-3.02147"/>
-                  <o4 x="-0.503579" y="-1.63663"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4840,10 +4806,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.18715" y="-1.84667"/>
-                  <o3 x="-1.18715" y="-1.84667"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4940,10 +4902,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.18715" y="-1.71477"/>
-                  <o3 x="-1.18715" y="-1.71477"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5043,11 +5001,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.503579" y="-1.38484"/>
-                  <o2 x="-5.55112e-17" y="-4.53221"/>
-                  <o3 x="-2.14021" y="-2.76968"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5135,10 +5088,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.755368" y="-2.392"/>
-                  <o3 x="-0.755368" y="-2.392"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5216,11 +5165,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="1.13305" y="-0.881263"/>
-                  <o3 x="-1.78813e-6" y="-0.629474"/>
-                  <o4 x="0.629473" y="-0.125895"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5301,10 +5245,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="1.88842" y="-3.52505"/>
-                  <o3 x="-0.251789" y="-3.52505"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5384,12 +5324,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-1.00716" y="-3.90273"/>
-                  <o2 x="-2.51789" y="-4.784"/>
-                  <o3 x="-8.93852" y="-2.64379"/>
-                  <o4 x="-1.13305" y="-0.377684"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5589,12 +5523,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-1.00716" y="-3.90273"/>
-                  <o2 x="-2.51789" y="-4.784"/>
-                  <o3 x="-7.0501" y="-3.27326"/>
-                  <o4 x="-0.755366" y="-1.13305"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5784,10 +5712,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.13305" y="-2.2661"/>
-                  <o3 x="-1.13305" y="-2.2661"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5859,10 +5783,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.503579" y="-3.02147"/>
-                  <o3 x="-0.503579" y="-3.02147"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6163,11 +6083,6 @@
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.251789" y="-2.392"/>
-                  <o2 x="-0.251789" y="-1.25895"/>
-                  <o3 x="-0.755368" y="-1.51074"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6269,11 +6184,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.503579" y="-1.13305"/>
-                  <o2 x="-0.125895" y="-1.13305"/>
-                  <o3 x="-1.76253" y="-1.25895"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6442,11 +6352,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.479655" y="-0.839396"/>
-                  <o3 x="-0.479655" y="-0.839396"/>
-                  <o4 x="1.67879" y="-1.07922"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6569,10 +6474,6 @@
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.377684" y="-4.90989"/>
-                  <o3 x="-4.53221" y="-5.66526"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6702,10 +6603,6 @@
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.63663" y="-2.51789"/>
-                  <o3 x="-1.63663" y="-2.51789"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6837,10 +6734,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.25895" y="-5.66526"/>
-                  <o3 x="-1.25895" y="-5.66526"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6934,10 +6827,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-2.14021" y="-3.14737"/>
-                  <o3 x="-3.39916" y="-3.02147"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7032,11 +6921,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.377684" y="-2.89558"/>
-                  <o2 x="-1.63663" y="-0.881263"/>
-                  <o3 x="-7.67957" y="0.503579"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7213,11 +7097,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.377684" y="-2.89558"/>
-                  <o2 x="-1.63663" y="-0.881263"/>
-                  <o3 x="-7.30189" y="-0.125894"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7384,10 +7263,6 @@
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.881263" y="-1.38484"/>
-                  <o3 x="-0.881263" y="-1.38484"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7477,10 +7352,6 @@
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.38484" y="-2.392"/>
-                  <o3 x="-0.503579" y="-2.392"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7623,10 +7494,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.359741" y="-3.35758"/>
-                  <o3 x="-0.359741" y="-3.35758"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7711,11 +7578,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="1.77497e-16" y="-3.35758"/>
-                  <o3 x="1.77497e-16" y="-3.35758"/>
-                  <o4 x="0.599569" y="-1.43896"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7827,10 +7689,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.07922" y="-1.91862"/>
-                  <o3 x="-1.07922" y="-1.91862"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7981,9 +7839,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="2.14021"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -8149,11 +8004,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.377684" y="-1.63663"/>
-                  <o2 x="0.251789" y="-1.63663"/>
-                  <o3 x="-1.00716" y="-1.88842"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -8307,11 +8157,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0.755368" y="-0.125895"/>
-                  <o4 x="-0.755368" y="-0.377684"/>
-                  <offset x="0" y="2.392"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -8470,10 +8315,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.503579" y="-1.00716"/>
-                  <o3 x="-0.503579" y="-1.00716"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -8746,10 +8587,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.629473" y="-0.881263"/>
-                  <o3 x="-0.629473" y="-0.881263"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -8824,11 +8661,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.125895" y="-0.251789"/>
-                  <o2 x="-1.16325" y="-3.78282"/>
-                  <o3 x="-2.01431" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -8927,11 +8759,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.503579" y="-0.881263"/>
-                  <o2 x="0.377684" y="-1.00716"/>
-                  <o3 x="-1.13305" y="-1.25895"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9011,11 +8838,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.125895" y="-0.251789"/>
-                  <o2 x="0.377684" y="-2.1402"/>
-                  <o3 x="-1.63663" y="0.25179"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9145,10 +8967,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.00716" y="-3.27326"/>
-                  <o3 x="-1.00716" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9232,11 +9050,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.125895" y="-0.251789"/>
-                  <o2 x="7.0622e-8" y="-3.14736"/>
-                  <o3 x="-2.01431" y="-0.755367"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9353,10 +9166,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.503579" y="-1.25895"/>
-                  <o3 x="-0.503579" y="-1.25895"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -9421,10 +9230,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.629473" y="-1.76253"/>
-                  <o3 x="-0.629473" y="-1.76253"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9496,11 +9301,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.125895" y="-0.629473"/>
-                  <o2 x="-0.125895" y="-2.01431"/>
-                  <o3 x="-1.00716" y="-2.2661"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9572,10 +9372,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.503579" y="-2.392"/>
-                  <o3 x="-1.88842" y="-2.2661"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9655,10 +9451,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.13305" y="-3.02147"/>
-                  <o3 x="-1.13305" y="-3.02147"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9741,10 +9533,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.25895" y="-1.63663"/>
-                  <o3 x="-1.25895" y="-1.63663"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9809,10 +9597,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.125895" y="-2.89558"/>
-                  <o3 x="-3.14737" y="-1.88842"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9873,10 +9657,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.503579" y="-1.25895"/>
-                  <o3 x="-0.503579" y="-1.25895"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -9942,10 +9722,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.00716" y="-2.26611"/>
-                  <o3 x="-1.88842" y="-3.02148"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10021,11 +9797,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.377684" y="-1.00716"/>
-                  <o2 x="-0.251789" y="-1.76253"/>
-                  <o3 x="-1.76253" y="-2.2661"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10058,11 +9829,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.44568"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -10123,11 +9889,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.251789" y="-0.629473"/>
-                  <o2 x="-0.755368" y="-1.38484"/>
-                  <o3 x="-2.392" y="-2.14021"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10219,10 +9980,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.629473" y="-2.39199"/>
-                  <o3 x="-2.64379" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10309,12 +10066,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.125895" y="-0.251789"/>
-                  <o2 x="0.629473" y="-3.90273"/>
-                  <o3 x="-3.90273" y="-0.755367"/>
-                  <o4 x="-0.755368" y="-0.251789"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -10406,10 +10157,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.629473" y="-2.39199"/>
-                  <o3 x="-2.64379" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10496,10 +10243,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.629473" y="-2.39199"/>
-                  <o3 x="-2.64379" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10531,11 +10274,6 @@
             <HairPin>
               <subtype>0</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1.9421"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -10603,10 +10341,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.629473" y="-2.39199"/>
-                  <o3 x="-2.64379" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10693,10 +10427,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.629473" y="-2.39199"/>
-                  <o3 x="-2.64379" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10795,10 +10525,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.629473" y="-2.39199"/>
-                  <o3 x="-2.64379" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10885,10 +10611,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.629473" y="-3.14736"/>
-                  <o3 x="-5.41347" y="-2.392"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10998,10 +10720,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.881263" y="-2.01431"/>
-                  <o3 x="-0.881263" y="-2.01431"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -11100,11 +10818,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.377684" y="-1.38484"/>
-                  <o2 x="-0.377684" y="-0.251789"/>
-                  <o3 x="-7.17599" y="-0.251789"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11199,10 +10912,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.76253" y="-4.28042"/>
-                  <o3 x="-3.02147" y="-3.90273"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -11309,10 +11018,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.125895" y="-5.79115"/>
-                  <o3 x="-2.51789" y="-3.14737"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11422,10 +11127,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.629473" y="-2.39199"/>
-                  <o3 x="-2.64379" y="-3.27326"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11511,10 +11212,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.629473" y="-3.14736"/>
-                  <o3 x="-5.41347" y="-2.392"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11644,10 +11341,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.00716" y="-2.51789"/>
-                  <o3 x="-1.00716" y="-2.51789"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11730,11 +11423,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-1.00716" y="-5.03579"/>
-                  <o2 x="-0.629473" y="-3.14736"/>
-                  <o3 x="-5.41347" y="-2.392"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11829,11 +11517,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.755368" y="-1.63663"/>
-                  <o2 x="-0.125895" y="-3.39915"/>
-                  <o3 x="-5.03579" y="-3.77684"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11921,10 +11604,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.629473" y="-3.14736"/>
-                  <o3 x="-5.41347" y="-2.392"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12009,10 +11688,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.00716" y="-2.51789"/>
-                  <o3 x="-1.00716" y="-2.51789"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12095,10 +11770,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.00716" y="-2.51789"/>
-                  <o3 x="-1.00716" y="-2.51789"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12235,10 +11906,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.00716" y="-2.51789"/>
-                  <o3 x="-1.00716" y="-2.51789"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12321,10 +11988,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.00716" y="-2.51789"/>
-                  <o3 x="-1.00716" y="-2.51789"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12443,10 +12106,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.13305" y="-1.51074"/>
-                  <o3 x="-1.13305" y="-1.51074"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12535,10 +12194,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.881263" y="-1.63663"/>
-                  <o3 x="-0.881263" y="-1.63663"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12638,11 +12293,6 @@
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.251789" y="-2.392"/>
-                  <o2 x="-2.01431" y="-2.64379"/>
-                  <o3 x="-2.51789" y="-2.89558"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12733,10 +12383,6 @@
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-1.88842" y="-3.77684"/>
-                  <o3 x="-4.6581" y="-3.14737"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12809,11 +12455,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.70104"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -12865,11 +12506,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.125895" y="-0.881263"/>
-                  <o2 x="0.125895" y="-2.14021"/>
-                  <o3 x="-1.38484" y="-2.392"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12954,11 +12590,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.377684" y="-0.629473"/>
-                  <o2 x="-0.251789" y="-1.63663"/>
-                  <o3 x="-1.63663" y="-1.88842"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -13047,10 +12678,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="1.76253" y="-2.64379"/>
-                  <o3 x="-0.377684" y="-2.14021"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -13130,10 +12757,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="-0.503579" y="-2.2661"/>
-                  <o3 x="-2.89558" y="-3.02147"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>

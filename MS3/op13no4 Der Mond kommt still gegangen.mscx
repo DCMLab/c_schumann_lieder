@@ -224,12 +224,14 @@
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
-    <showFrames>0</showFrames>
+    <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="P86 (composer)">Q132232</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1844</metaTag>
-    <metaTag name="composed_start">1844</metaTag>
+    <metaTag name="composed_end">1842</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Clara_Schumann</metaTag>
+    <metaTag name="composed_start">1842</metaTag>
     <metaTag name="composer">Clara Schumann</metaTag>
     <metaTag name="copyright">OpenScore (CC0)</metaTag>
     <metaTag name="creationDate">2018-06-08</metaTag>
@@ -239,15 +241,19 @@
     <metaTag name="movementNumber">4</metaTag>
     <metaTag name="movementTitle">Der Mond kommt still gegangen</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/6916a104-8693-4d3b-9e00-c757d54b5c62</metaTag>
     <metaTag name="originalFormat">musicxml</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/348578</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/openscore-lieder-corpus/scores/5126921</metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber">13</metaTag>
-    <metaTag name="workTitle">6 Lieder, Op.13</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/175203352/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q93451955</metaTag>
+    <metaTag name="workNumber">Op.13</metaTag>
+    <metaTag name="workTitle">6 Lieder mit Begleitung des Pianoforte, op.13</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -291,6 +297,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="68"/>
           <synti>Fluid</synti>
@@ -314,14 +321,14 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Piano</trackName>
-      <Instrument id="grand-piano">
+      <Instrument id="piano">
         <longName>Piano</longName>
-        <trackName>Grand Piano</trackName>
+        <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+        <instrumentId>keyboard.piano</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -363,32 +370,27 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>18.4804</height>
+        <height>23.9264</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
-          <style>User-1</style>
-          <offset x="0.126373" y="13.9302"/>
-          <text>6 Lieder, Op.13</text>
+          <style>Subtitle</style>
+          <text>from: <i>6 Lieder mit Begleitung des Pianoforte</i>, op.13</text>
           </Text>
         <Text>
           <style>Composer</style>
+          <offset x="0" y="-7.54409"/>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
+          <offset x="0" y="-7.54409"/>
           <text>Emanuel Geibel</text>
           </Text>
         <Text>
           <style>Title</style>
           <text>4. Der Mond kommt still gegangen</text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>17.6895</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
         </VBox>
       <HBox>
         <width>3</width>
@@ -403,6 +405,12 @@
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 40</b></text>
+            </Tempo>
           <Rest>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -1230,10 +1238,6 @@
             </Rest>
           </voice>
         </Measure>
-      <VBox>
-        <height>23.1</height>
-        <boxAutoSize>0</boxAutoSize>
-        </VBox>
       <Measure>
         <voice>
           <Chord>
@@ -1278,11 +1282,6 @@
             <HairPin>
               <subtype>1</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="5" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1497,11 +1496,6 @@
             <HairPin>
               <subtype>0</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1664,11 +1658,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3463,11 +3452,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3689,11 +3673,6 @@
               <subtype>3</subtype>
               <endText></endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4036,10 +4015,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-3.1"/>
-                  <o4 x="0" y="-0.9"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5952,11 +5927,6 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -6839,9 +6809,6 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="2.2" y="0"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -7015,9 +6982,6 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="2.5" y="0"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
