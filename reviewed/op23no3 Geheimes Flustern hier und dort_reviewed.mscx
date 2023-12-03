@@ -60,7 +60,6 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
-      <hideEmptyStaves>1</hideEmptyStaves>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
@@ -227,27 +226,34 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="P86 (composer)">Q132232</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">v2.0</metaTag>
     <metaTag name="composed_end">1853</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/List_of_compositions_by_Clara_Schumann</metaTag>
     <metaTag name="composed_start">1853</metaTag>
     <metaTag name="composer">Clara Schumann</metaTag>
     <metaTag name="copyright">OpenScore (CC0)</metaTag>
     <metaTag name="creationDate">2018-06-15</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="imslp">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
-    <metaTag name="lyricist">Hermann Rollet</metaTag>
+    <metaTag name="lyricist">Hermann Rollett</metaTag>
     <metaTag name="movementNumber">3</metaTag>
     <metaTag name="movementTitle">Geheimes Flüstern hier und dort</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/05e86d18-cf58-4f8f-91b9-760bbbdb6dc8</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/485202</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/openscore-lieder-corpus/scores/5134987</metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber">23</metaTag>
-    <metaTag name="workTitle">6 Lieder, Op.23</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/317275603/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q97192858</metaTag>
+    <metaTag name="workNumber">Op.23</metaTag>
+    <metaTag name="workTitle">6 Lieder aus Jucunde, Op. 23</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -292,6 +298,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="68"/>
           <synti>Fluid</synti>
@@ -317,14 +324,14 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Piano</trackName>
-      <Instrument id="grand-piano">
+      <Instrument id="piano">
         <longName>Piano</longName>
-        <trackName>Grand Piano</trackName>
+        <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+        <instrumentId>keyboard.piano</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -366,32 +373,29 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>15.8</height>
+        <height>25.5949</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
-          <style>User-1</style>
-          <text>6 Lieder, Op.23</text>
+          <style>Subtitle</style>
+          <offset x="0" y="12.625"/>
+          <text>from: <i>6 Lieder aus Jucunde</i>, Op. 23</text>
           </Text>
         <Text>
           <style>Composer</style>
+          <offset x="0" y="-7.2421"/>
           <text>Clara Schumann</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text>Hermann Rollet</text>
+          <offset x="0" y="-7.2421"/>
+          <text>Hermann Rollett</text>
           </Text>
         <Text>
           <style>Title</style>
           <offset x="0.1795" y="4.79851"/>
           <text>3. Geheimes Flüstern hier und dort</text>
           </Text>
-        </VBox>
-      <VBox>
-        <height>6.84221</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
         </VBox>
       <HBox>
         <width>3</width>
@@ -407,9 +411,14 @@
             <sigD>8</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.0333300000000001</tempo>
-            <offset x="-23.9588" y="-11.3792"/>
+            <tempo>1.18333</tempo>
             <text>Langsam und sehr leise</text>
+            </Tempo>
+          <Tempo>
+            <tempo>1</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 40</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -681,11 +690,6 @@
               <subtype>0</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2"/>
-                <off2 x="1.82835" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -792,11 +796,6 @@
               <subtype>1</subtype>
               <veloChange>20</veloChange>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2"/>
-                <off2 x="2.10963" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -908,11 +907,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1312,11 +1306,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1925,10 +1914,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0.4" y="0"/>
-                  <offset x="0" y="0.7"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2521,10 +2506,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="0.562569"/>
-                  <o3 x="0" y="0.562569"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3025,10 +3006,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.156269" y="0.468808"/>
-                  <o3 x="0.156269" y="0.468808"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3187,11 +3164,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.5" y="-6.99396e-17"/>
-                  <o3 x="0.5" y="-6.99396e-17"/>
-                  <o4 x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3278,11 +3250,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.781285" y="-0.903212"/>
-                  <o3 x="0.781285" y="-0.903212"/>
-                  <o4 x="0" y="-1.4"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3398,12 +3365,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0.221927" y="-0.096788"/>
-                  <o2 x="0.734811" y="0.127676"/>
-                  <o3 x="0.6" y="4.19638e-17"/>
-                  <o4 x="0" y="-1.9"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3507,11 +3468,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.5" y="0"/>
-                  <o3 x="0.5" y="0"/>
-                  <o4 x="0" y="-1.1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3634,12 +3590,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.1"/>
-                  <o2 x="0.7" y="4.89578e-17"/>
-                  <o3 x="0.7" y="4.89578e-17"/>
-                  <o4 x="0" y="-0.2"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3729,11 +3679,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.4" y="-2.79759e-17"/>
-                  <o3 x="0.4" y="-2.79759e-17"/>
-                  <o4 x="0" y="-0.2"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3832,9 +3777,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o3 x="0.781346" y="-0.781346"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4013,11 +3955,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="1" y="0"/>
-                  <o3 x="0.8" y="0"/>
-                  <o4 x="0" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4106,11 +4043,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.6" y="0"/>
-                  <o3 x="0.6" y="0"/>
-                  <o4 x="0" y="-0.2"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4204,10 +4136,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.5" y="3.49698e-17"/>
-                  <o3 x="0.5" y="3.49698e-17"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4311,11 +4239,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.2" y="0"/>
-                  <o2 x="0.868808" y="-0.781346"/>
-                  <o3 x="0.868808" y="-0.781346"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -4393,12 +4316,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.2"/>
-                  <o2 x="1.68771" y="-0.684496"/>
-                  <o3 x="1.68771" y="-0.984496"/>
-                  <o4 x="0" y="-1.4"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4422,11 +4339,6 @@
               <veloChange>20</veloChange>
               <endText></endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0.6" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4507,11 +4419,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.6"/>
-                  <o2 x="0.5" y="-0.4"/>
-                  <o3 x="0.5" y="-0.4"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4598,11 +4505,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0.1" y="-0.6"/>
-                  <o2 x="0.8" y="-0.3"/>
-                  <o3 x="0.8" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4692,11 +4594,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>20</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.9"/>
-                <off2 x="3.7" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4708,10 +4605,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.4" y="-0.3"/>
-                  <o3 x="0.4" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4817,10 +4710,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0.068808" y="1.88777"/>
-                  <o4 x="-0.91896" y="1.87523"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4983,9 +4872,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="-0.2" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5157,11 +5043,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.2"/>
-                  <o2 x="1.1" y="0"/>
-                  <o3 x="0.5" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
