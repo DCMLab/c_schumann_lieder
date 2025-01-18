@@ -170,13 +170,7 @@
         "type": "string"
       },
       {
-        "name": "pedal",
-        "title": "Pedal Point",
-        "description": "Specified as Roman numeral.",
-        "type": "string"
-      },
-      {
-        "name": "Pedal_<sym>keyboardPedalPed</sym>",
+        "name": "diminuendo_line",
         "type": "string"
       },
       {
@@ -188,13 +182,19 @@
         "type": "string"
       },
       {
-        "name": "diminuendo_line",
+        "name": "pedal",
+        "title": "Pedal Point",
+        "description": "Specified as Roman numeral.",
+        "type": "string"
+      },
+      {
+        "name": "Pedal_<sym>keyboardPedalPed</sym>",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "DnLjDDhCpKDhrA",
-    "filepath": "chords/DnLjDDhCpKDhrA.schema.yaml",
+    "identifier": "7XK6cdgfSjcxWA",
+    "filepath": "chords/7XK6cdgfSjcxWA.schema.yaml",
     "used_in": "op23no5 Das ist ein Tag der klingen mag"
   },
   "creator": {
@@ -207,8 +207,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
+    "softwareVersion": "2.5.3"
   },
-  "git_revision": "c289100c032f247a47eeb6c8b184968eed23666e",
-  "git_tag": "v2.0-33-gc289100"
+  "git_revision": "6b65ad5c4984d536b6762e9fa012b54898983b97",
+  "git_tag": "v2.1-2-g6b65ad5"
 }
