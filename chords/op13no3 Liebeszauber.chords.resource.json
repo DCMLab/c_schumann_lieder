@@ -164,11 +164,11 @@
         "type": "string"
       },
       {
-        "name": "diminuendo_line",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "diminuendo_line",
         "type": "string"
       },
       {
@@ -181,8 +181,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "CyHAWfx4wlbO2Q",
-    "filepath": "chords/CyHAWfx4wlbO2Q.schema.yaml",
+    "identifier": "iXJvE7OURohXIw",
+    "filepath": "chords/iXJvE7OURohXIw.schema.yaml",
     "used_in": "op13no3 Liebeszauber"
   },
   "creator": {
@@ -197,6 +197,6 @@
     },
     "softwareVersion": "2.5.3"
   },
-  "git_revision": "6b65ad5c4984d536b6762e9fa012b54898983b97",
-  "git_tag": "v2.1-2-g6b65ad5"
+  "git_revision": "0c4b800d4f1f26d42df2817f9aa789a4b3378b61",
+  "git_tag": "v2.1-6-g0c4b800"
 }

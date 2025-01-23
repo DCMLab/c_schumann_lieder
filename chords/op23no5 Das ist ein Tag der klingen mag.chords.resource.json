@@ -170,18 +170,6 @@
         "type": "string"
       },
       {
-        "name": "diminuendo_line",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_line",
-        "type": "string"
-      },
-      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -190,11 +178,23 @@
       {
         "name": "Pedal_<sym>keyboardPedalPed</sym>",
         "type": "string"
+      },
+      {
+        "name": "diminuendo_line",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_line",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "7XK6cdgfSjcxWA",
-    "filepath": "chords/7XK6cdgfSjcxWA.schema.yaml",
+    "identifier": "7x6Q35IULvv5BQ",
+    "filepath": "chords/7x6Q35IULvv5BQ.schema.yaml",
     "used_in": "op23no5 Das ist ein Tag der klingen mag"
   },
   "creator": {
@@ -209,6 +209,6 @@
     },
     "softwareVersion": "2.5.3"
   },
-  "git_revision": "6b65ad5c4984d536b6762e9fa012b54898983b97",
-  "git_tag": "v2.1-2-g6b65ad5"
+  "git_revision": "0c4b800d4f1f26d42df2817f9aa789a4b3378b61",
+  "git_tag": "v2.1-6-g0c4b800"
 }

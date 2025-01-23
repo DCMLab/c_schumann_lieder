@@ -170,14 +170,6 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -186,11 +178,19 @@
       {
         "name": "Pedal_<sym>keyboardPedalPed</sym>",
         "type": "string"
+      },
+      {
+        "name": "decrescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "nXIlehKIaCxijA",
-    "filepath": "chords/nXIlehKIaCxijA.schema.yaml",
+    "identifier": "sF5CF0H4i6W9LQ",
+    "filepath": "chords/sF5CF0H4i6W9LQ.schema.yaml",
     "used_in": "op13no5 Ich hab in deinem Auge"
   },
   "creator": {
@@ -205,6 +205,6 @@
     },
     "softwareVersion": "2.5.3"
   },
-  "git_revision": "6b65ad5c4984d536b6762e9fa012b54898983b97",
-  "git_tag": "v2.1-2-g6b65ad5"
+  "git_revision": "0c4b800d4f1f26d42df2817f9aa789a4b3378b61",
+  "git_tag": "v2.1-6-g0c4b800"
 }
