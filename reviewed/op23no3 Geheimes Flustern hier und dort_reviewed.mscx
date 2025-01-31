@@ -1702,7 +1702,7 @@
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
-              <beginText>1.</beginText>
+              <beginText>1.2.</beginText>
               <endings>1, 2</endings>
               </Volta>
             <next>
@@ -1775,7 +1775,7 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
+        <noOffset>-6</noOffset>
         <voice>
           <Spanner type="Volta">
             <prev>
@@ -1786,12 +1786,12 @@
             </Spanner>
           <Spanner type="Volta">
             <Volta>
-              <beginText>2.</beginText>
+              <beginText>3.</beginText>
               <endings>3</endings>
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>6</measures>
                 </location>
               </next>
             </Spanner>
@@ -1804,58 +1804,58 @@
       <Measure>
         <stretch>0</stretch>
         <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0</stretch>
+        <voice>
           <Spanner type="Volta">
             <prev>
               <location>
-                <measures>-1</measures>
+                <measures>-6</measures>
                 </location>
               </prev>
             </Spanner>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0</stretch>
-        <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/8</duration>

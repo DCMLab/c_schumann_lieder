@@ -4,4 +4,4 @@ Warnings encountered during the last execution of ms3 review
 ERROR    ms3.Parse.c_schumann_lieder.op23no3 Geheimes Flustern hier und dort
 	Could not compute volta structure because at least one MC contains several of them:      mc volta_start volta_length
 	120  41        1, 2            6
-	138  47           3            1
+	138  47           3            6
