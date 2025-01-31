@@ -180,7 +180,7 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "diminuendo_line",
         "type": "string"
       },
       {
@@ -188,13 +188,13 @@
         "type": "string"
       },
       {
-        "name": "diminuendo_line",
+        "name": "crescendo_hairpin",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "DnLjDDhCpKDhrA",
-    "filepath": "chords/DnLjDDhCpKDhrA.schema.yaml",
+    "identifier": "7x6Q35IULvv5BQ",
+    "filepath": "chords/7x6Q35IULvv5BQ.schema.yaml",
     "used_in": "op23no5 Das ist ein Tag der klingen mag"
   },
   "creator": {
@@ -207,8 +207,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
+    "softwareVersion": "2.5.3"
   },
-  "git_revision": "c289100c032f247a47eeb6c8b184968eed23666e",
-  "git_tag": "v2.0-33-gc289100"
+  "git_revision": "0c4b800d4f1f26d42df2817f9aa789a4b3378b61",
+  "git_tag": "v2.1-6-g0c4b800"
 }

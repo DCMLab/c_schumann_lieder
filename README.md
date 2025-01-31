@@ -41,7 +41,7 @@ wonderful [OpenScore Lieder](https://github.com/OpenScore/Lieder/tree/main/score
 |op13no6 Die stille Lotosblume          |      47|   118|2.3.0   |Adrian Nagel|AB       |
 |op23no1 Was weinst du Blumlein         |      68|   139|2.3.0   |Adrian Nagel|AB       |
 |op23no2 An einem lichten Morgen        |      38|    94|2.3.0   |Adrian Nagel|AB       |
-|op23no3 Geheimes Flustern hier und dort|      55|    74|2.3.0   |Adrian Nagel|AB       |
+|op23no3 Geheimes Flustern hier und dort|      50|    74|2.3.0   |Adrian Nagel|AB       |
 |op23no4 Auf einem grunen Hugel         |      30|    94|2.3.0   |Adrian Nagel|AB       |
 |op23no5 Das ist ein Tag der klingen mag|      45|   122|2.3.0   |Adrian Nagel|AB       |
 |op23no6 O Lust o Lust                  |      40|    90|2.3.0   |Adrian Nagel|AB       |

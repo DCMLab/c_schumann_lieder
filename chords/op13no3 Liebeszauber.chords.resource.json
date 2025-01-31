@@ -164,7 +164,7 @@
         "type": "string"
       },
       {
-        "name": "crescendo_line",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
@@ -176,13 +176,13 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "crescendo_line",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "r8Mgf0jMy5QRjw",
-    "filepath": "chords/r8Mgf0jMy5QRjw.schema.yaml",
+    "identifier": "iXJvE7OURohXIw",
+    "filepath": "chords/iXJvE7OURohXIw.schema.yaml",
     "used_in": "op13no3 Liebeszauber"
   },
   "creator": {
@@ -195,8 +195,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
+    "softwareVersion": "2.5.3"
   },
-  "git_revision": "c289100c032f247a47eeb6c8b184968eed23666e",
-  "git_tag": "v2.0-33-gc289100"
+  "git_revision": "0c4b800d4f1f26d42df2817f9aa789a4b3378b61",
+  "git_tag": "v2.1-6-g0c4b800"
 }
