@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -178,17 +178,17 @@
         "type": "string"
       },
       {
-        "name": "crescendo_line",
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "crescendo_line",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "OR8a3iH2-EmY-g",
-    "filepath": "chords/OR8a3iH2-EmY-g.schema.yaml",
+    "identifier": "Xn3NFZVfsBCc_A",
+    "filepath": "chords/Xn3NFZVfsBCc_A.schema.yaml",
     "used_in": "op23no6 O Lust o Lust"
   },
   "creator": {
@@ -201,8 +201,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.3"
+    "softwareVersion": "2.5.4"
   },
-  "git_revision": "0c4b800d4f1f26d42df2817f9aa789a4b3378b61",
-  "git_tag": "v2.1-6-g0c4b800"
+  "git_revision": "c9583f034bd1f7c9b072ae52219149971a37e122",
+  "git_tag": "v2.2-1-gc9583f0"
 }
